@@ -1,0 +1,956 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN bucket))\n    (VP (VBZ contains)\n      (NP\n        (NP (CD 3) (NNS gallons))\n        (PP (IN of)\n          (NP (NN water)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bucket",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bucket",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bucket",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bucket",
+          "originalText": "bucket",
+          "lemma": "bucket",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "contains",
+          "originalText": "contains",
+          "lemma": "contain",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 17,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 19,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "gallons",
+          "originalText": "gallons",
+          "lemma": "gallon",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 30,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "water",
+          "originalText": "water",
+          "lemma": "water",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 36,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (NNP Derek))\n        (VP (VBZ adds)\n          (ADVP\n            (NP (CD 6.8) (NNS gallons))\n            (RBR more)))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NNS gallons))\n    (SQ (MD will)\n      (NP (RB there))\n      (VP (VB be)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Derek"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "6.8"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "gallons",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 13,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Derek"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "6.8"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "gallons",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 13,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Derek"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "gallons",
+          "dependent": 4,
+          "dependentGloss": "6.8"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "gallons",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 13,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "all",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Derek",
+          "originalText": "Derek",
+          "lemma": "Derek",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "adds",
+          "originalText": "adds",
+          "lemma": "add",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "6.8",
+          "originalText": "6.8",
+          "lemma": "6.8",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.8",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "gallons",
+          "originalText": "gallons",
+          "lemma": "gallon",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 63,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 69,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 73,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 78,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "gallons",
+          "originalText": "gallons",
+          "lemma": "gallon",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 86,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 97,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 103,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 108,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A bucket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "3 gallons of water",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Derek",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "6.8",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "6.8 gallons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

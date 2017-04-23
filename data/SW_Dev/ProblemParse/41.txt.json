@@ -1,0 +1,834 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Sally))\n    (VP (VBD grew)\n      (NP (CD 6) (NNS carrots)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Sally",
+          "originalText": "Sally",
+          "lemma": "Sally",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "grew",
+          "originalText": "grew",
+          "lemma": "grow",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "carrots",
+          "originalText": "carrots",
+          "lemma": "carrot",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 21,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Fred))\n    (VP (VBD grew)\n      (NP (CD 4) (NNS carrots)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Fred"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Fred"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Fred"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "carrots",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 4,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "grew",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Fred",
+          "originalText": "Fred",
+          "lemma": "Fred",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 26,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "grew",
+          "originalText": "grew",
+          "lemma": "grow",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 31,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "carrots",
+          "originalText": "carrots",
+          "lemma": "carrot",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 41,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADVP (WRB How)\n      (NP (JJ many) (NNS carrots)))\n    (SQ (VBD did)\n      (NP (PRP they))\n      (VP (VB grow)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "carrots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "carrots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "carrots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "carrots"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "carrots",
+          "originalText": "carrots",
+          "lemma": "carrot",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 59,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 63,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "grow",
+          "originalText": "grow",
+          "lemma": "grow",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 73,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 76,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 82,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Sally",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "6 carrots",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Fred",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "4 carrots",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "many carrots",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

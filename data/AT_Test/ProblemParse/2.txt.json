@@ -1,0 +1,1510 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Sandy))\n    (VP (VBD went)\n      (PP (TO to)\n        (NP (DT the) (NN mall)))\n      (S\n        (VP (TO to)\n          (VP (VB buy)\n            (NP (NNS clothes))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "mall"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "mall"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "mall",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "mall"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Sandy",
+          "originalText": "Sandy",
+          "lemma": "Sandy",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 17,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "mall",
+          "originalText": "mall",
+          "lemma": "mall",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 25,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "clothes",
+          "originalText": "clothes",
+          "lemma": "clothes",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 38,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBD spent)\n      (NP\n        (NP\n          (NP ($ $) (CD 13.99))\n          (PP (IN on)\n            (NP (NNS shorts))))\n        (, ,)\n        (NP\n          (NP ($ $) (CD 12.14))\n          (PP (IN on)\n            (NP (DT a) (NN shirt))))\n        (, ,)\n        (CC and)\n        (NP\n          (NP ($ $) (CD 7.43))\n          (PP (IN on)\n            (NP (DT a) (NN jacket))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "13.99"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shorts",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 6,
+          "dependentGloss": "shorts"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 8,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 9,
+          "dependentGloss": "12.14"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 10,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 12,
+          "dependentGloss": "shirt"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 16,
+          "dependentGloss": "7.43"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 19,
+          "dependentGloss": "jacket"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "13.99"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shorts",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 6,
+          "dependentGloss": "shorts"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 8,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 9,
+          "dependentGloss": "12.14"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 10,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 12,
+          "dependentGloss": "shirt"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 16,
+          "dependentGloss": "7.43"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 19,
+          "dependentGloss": "jacket"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "13.99"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shorts",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 6,
+          "dependentGloss": "shorts"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 8,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 9,
+          "dependentGloss": "12.14"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 9,
+          "dependentGloss": "12.14"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 10,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shirt",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 9,
+          "governorGloss": "12.14",
+          "dependent": 12,
+          "dependentGloss": "shirt"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 16,
+          "dependentGloss": "7.43"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "13.99",
+          "dependent": 16,
+          "dependentGloss": "7.43"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "jacket",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 16,
+          "governorGloss": "7.43",
+          "dependent": 19,
+          "dependentGloss": "jacket"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spent",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 42,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 48,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 50,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$13.99",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "13.99",
+          "originalText": "13.99",
+          "lemma": "13.99",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 55,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$13.99",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 58,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "shorts",
+          "originalText": "shorts",
+          "lemma": "shorts",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 65,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$12.14",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "12.14",
+          "originalText": "12.14",
+          "lemma": "12.14",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 73,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$12.14",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 76,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 78,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "shirt",
+          "originalText": "shirt",
+          "lemma": "shirt",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 85,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 91,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$7.43",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "7.43",
+          "originalText": "7.43",
+          "lemma": "7.43",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 95,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$7.43",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "jacket",
+          "originalText": "jacket",
+          "lemma": "jacket",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 107,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 108,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NN money))\n    (SQ (VBD did)\n      (NP (NNP Sandy))\n      (VP (VB spend)\n        (PP (IN on)\n          (NP (NNS clothes)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "clothes",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "clothes",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "clothes",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 8,
+          "dependentGloss": "clothes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 112,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 117,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 127,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Sandy",
+          "originalText": "Sandy",
+          "lemma": "Sandy",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 133,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 139,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 142,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "clothes",
+          "originalText": "clothes",
+          "lemma": "clothes",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 150,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 151,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Sandy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "Sandy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "the mall",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "clothes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "clothes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "shorts",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a shirt",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a jacket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

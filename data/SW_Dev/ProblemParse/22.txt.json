@@ -1,0 +1,1109 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBD were)\n      (NP\n        (NP (DT a) (NN total))\n        (PP (IN of)\n          (NP\n            (NP (CD 7) (NN baseball) (NNS games))\n            (NP (DT a) (NN month))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 7,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "month",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 10,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 7,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "month",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 10,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 7,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "month",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "games",
+          "dependent": 10,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 12,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 21,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 23,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 32,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 38,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 40,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "P1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 10,
+          "word": "month",
+          "originalText": "month",
+          "lemma": "month",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "  "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NN season))\n    (VP (VBZ is)\n      (VP (VBN played)\n        (PP (IN for)\n          (NP (CD 2) (NNS months)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 2,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 2,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 2,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "played",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 52,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "  ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "season",
+          "originalText": "season",
+          "lemma": "season",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 62,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "played",
+          "originalText": "played",
+          "lemma": "play",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 69,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 73,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P2M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P2M"
+          }
+        },
+        {
+          "index": 7,
+          "word": "months",
+          "originalText": "months",
+          "lemma": "month",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P2M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P2M"
+          }
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 83,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NN baseball) (NNS games))\n    (SQ (VBP are)\n      (PP (IN in)\n        (NP (DT a) (NN season))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "season",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 87,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 101,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 107,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 111,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "season",
+          "originalText": "season",
+          "lemma": "season",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 125,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "a total of 7 baseball games a month",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a month",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "The season",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "2 months",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a season",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

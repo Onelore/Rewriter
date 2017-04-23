@@ -1,0 +1,844 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS cookies))\n    (SQ (MD would)\n      (NP (PRP you))\n      (VP (VB have)\n        (SBAR (IN if)\n          (S\n            (NP (PRP you))\n            (VP (VBD had)\n              (NP\n                (NP (CD 37) (NNS bags))\n                (PP (IN of)\n                  (NP (NNS cookies))))\n              (PP (IN with)\n                (NP\n                  (NP (CD 19) (NNS cookies))\n                  (PP (IN in)\n                    (NP (DT each) (NN bag))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cookies",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cookies",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 15,
+          "dependentGloss": "19"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 19,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cookies",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cookies",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 15,
+          "dependentGloss": "19"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 19,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cookies",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cookies",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 15,
+          "dependentGloss": "19"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "cookies"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "bag",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 16,
+          "governorGloss": "cookies",
+          "dependent": 19,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "cookies",
+          "originalText": "cookies",
+          "lemma": "cookie",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 16,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 22,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 31,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "if",
+          "originalText": "if",
+          "lemma": "if",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 38,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 42,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "37",
+          "originalText": "37",
+          "lemma": "37",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "37.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bags",
+          "originalText": "bags",
+          "lemma": "bag",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 50,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "cookies",
+          "originalText": "cookies",
+          "lemma": "cookie",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 61,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "19",
+          "originalText": "19",
+          "lemma": "19",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "19.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "cookies",
+          "originalText": "cookies",
+          "lemma": "cookie",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 77,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 80,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "bag",
+          "originalText": "bag",
+          "lemma": "bag",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "37",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "19",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "37 bags of cookies",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "cookies",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "19 cookies in each bag",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "each bag",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

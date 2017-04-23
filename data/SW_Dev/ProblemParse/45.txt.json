@@ -1,0 +1,2898 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (PRP$ her) (NN vacation)))\n    (NP-TMP (JJ last) (NN summer))\n    (, ,)\n    (NP (NNP Trisha))\n    (VP (VBD walked)\n      (NP (DT all))\n      (PP (IN over)\n        (NP (NNP New) (NNP York) (NNP City)))\n      (S\n        (VP (TO to)\n          (VP (VB buy)\n            (NP (NNS souvenirs))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "summer",
+          "dependent": 4,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 7,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 10,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 11,
+          "dependentGloss": "New"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 12,
+          "dependentGloss": "York"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 13,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "souvenirs"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "summer",
+          "dependent": 4,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 7,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 10,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 11,
+          "dependentGloss": "New"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 12,
+          "dependentGloss": "York"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 13,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "souvenirs"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "summer",
+          "dependent": 4,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 7,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 10,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 11,
+          "dependentGloss": "New"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "City",
+          "dependent": 12,
+          "dependentGloss": "York"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 13,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "souvenirs"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 6,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "vacation",
+          "originalText": "vacation",
+          "lemma": "vacation",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 20,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-SU OFFSET P-1Y",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "XXXX-SU OFFSET P-1Y"
+          }
+        },
+        {
+          "index": 5,
+          "word": "summer",
+          "originalText": "summer",
+          "lemma": "summer",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-SU OFFSET P-1Y",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "XXXX-SU OFFSET P-1Y"
+          }
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 28,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Trisha",
+          "originalText": "Trisha",
+          "lemma": "Trisha",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 35,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "walked",
+          "originalText": "walked",
+          "lemma": "walk",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "over",
+          "originalText": "over",
+          "lemma": "over",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "New",
+          "originalText": "New",
+          "lemma": "New",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "York",
+          "originalText": "York",
+          "lemma": "York",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "City",
+          "originalText": "City",
+          "lemma": "City",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 68,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "souvenirs",
+          "originalText": "souvenirs",
+          "lemma": "souvenir",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 83,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (ADVP (RB First))\n    (, ,)\n    (NP (PRP she))\n    (VP (VBD walked)\n      (NP\n        (NP (CD 0.1111111111111111))\n        (PP (IN of)\n          (NP (DT a) (NN mile))))\n      (PP (IN from)\n        (NP (PRP$ her) (NN hotel)))\n      (PP (TO to)\n        (NP (DT a) (NN postcard) (NN shop))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "First"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 8,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "First"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 8,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "First"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 5,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mile",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 8,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "hotel",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "First",
+          "originalText": "First",
+          "lemma": "first",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 89,
+          "pos": "RB",
+          "ner": "ORDINAL",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "walked",
+          "originalText": "walked",
+          "lemma": "walk",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 101,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "0.1111111111111111",
+          "originalText": "0.1111111111111111",
+          "lemma": "0.1111111111111111",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 120,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.1111111111111111",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 123,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 125,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 130,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 135,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 139,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "hotel",
+          "originalText": "hotel",
+          "lemma": "hotel",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 145,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 148,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 150,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "postcard",
+          "originalText": "postcard",
+          "lemma": "postcard",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 159,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "shop",
+          "originalText": "shop",
+          "lemma": "shop",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 164,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 165,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S (RB Then)\n    (S\n      (NP (PRP she))\n      (VP (VBD walked)\n        (NP\n          (NP (CD 0.1111111111111111))\n          (PP (IN of)\n            (NP (DT a) (NN mile))))\n        (PP (IN from)\n          (NP (DT the) (NN postcard) (NN shop)))\n        (PP (TO to)\n          (NP (DT a) (NNS T-shirt) (NN shop)))))\n    (CC and)\n    (S\n      (NP\n        (NP (CD 0.6666666666666666))\n        (PP (IN of)\n          (NP\n            (NP (DT a) (NN mile))\n            (PP (IN from)\n              (NP (DT the) (NNS T-shirt))))))\n      (VP (VBP shop)\n        (ADVP (RB back))\n        (PP (TO to)\n          (NP (DT the) (NN hotel)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 4,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 7,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 10,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 17,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 20,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 21,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 23,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 24,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 25,
+          "dependentGloss": "back"
+        },
+        {
+          "dep": "case",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 28,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 4,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 7,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 10,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 17,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 20,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 21,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 23,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 24,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 25,
+          "dependentGloss": "back"
+        },
+        {
+          "dep": "case",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 28,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 4,
+          "dependentGloss": "0.1111111111111111"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mile",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "0.1111111111111111",
+          "dependent": 7,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "shop",
+          "dependent": 10,
+          "dependentGloss": "postcard"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 11,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "shop",
+          "dependent": 14,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 15,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 17,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 20,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 21,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "T-shirt",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 20,
+          "governorGloss": "mile",
+          "dependent": 23,
+          "dependentGloss": "T-shirt"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 24,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 25,
+          "dependentGloss": "back"
+        },
+        {
+          "dep": "case",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "hotel",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 24,
+          "governorGloss": "shop",
+          "dependent": 28,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walked",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Then",
+          "originalText": "Then",
+          "lemma": "then",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 170,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 174,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "walked",
+          "originalText": "walked",
+          "lemma": "walk",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 181,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "0.1111111111111111",
+          "originalText": "0.1111111111111111",
+          "lemma": "0.1111111111111111",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 200,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.1111111111111111",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 203,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 205,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 210,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 215,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 219,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "postcard",
+          "originalText": "postcard",
+          "lemma": "postcard",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 228,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "shop",
+          "originalText": "shop",
+          "lemma": "shop",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 233,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 236,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 238,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "T-shirt",
+          "originalText": "T-shirt",
+          "lemma": "t-shirt",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 246,
+          "pos": "NNS",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "shop",
+          "originalText": "shop",
+          "lemma": "shop",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 251,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 255,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "0.6666666666666666",
+          "originalText": "0.6666666666666666",
+          "lemma": "0.6666666666666666",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 274,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.6666666666666666",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 277,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 278,
+          "characterOffsetEnd": 279,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 280,
+          "characterOffsetEnd": 284,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 289,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 290,
+          "characterOffsetEnd": 293,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "T-shirt",
+          "originalText": "T-shirt",
+          "lemma": "t-shirt",
+          "characterOffsetBegin": 294,
+          "characterOffsetEnd": 301,
+          "pos": "NNS",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "shop",
+          "originalText": "shop",
+          "lemma": "shop",
+          "characterOffsetBegin": 302,
+          "characterOffsetEnd": 306,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "back",
+          "originalText": "back",
+          "lemma": "back",
+          "characterOffsetBegin": 307,
+          "characterOffsetEnd": 311,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 314,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 315,
+          "characterOffsetEnd": 318,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "hotel",
+          "originalText": "hotel",
+          "lemma": "hotel",
+          "characterOffsetBegin": 319,
+          "characterOffsetEnd": 324,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 29,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 324,
+          "characterOffsetEnd": 325,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS miles))\n    (SQ (VBD did)\n      (NP (NNP Trisha))\n      (VP (VB walk)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 5,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 5,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 5,
+          "dependentGloss": "Trisha"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "all",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 8,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "walk",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 326,
+          "characterOffsetEnd": 329,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 334,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 335,
+          "characterOffsetEnd": 340,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 341,
+          "characterOffsetEnd": 344,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Trisha",
+          "originalText": "Trisha",
+          "lemma": "Trisha",
+          "characterOffsetBegin": 345,
+          "characterOffsetEnd": 351,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "walk",
+          "originalText": "walk",
+          "lemma": "walk",
+          "characterOffsetBegin": 352,
+          "characterOffsetEnd": 356,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 357,
+          "characterOffsetEnd": 359,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 360,
+          "characterOffsetEnd": 363,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 363,
+          "characterOffsetEnd": 364,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Trisha",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 24,
+        "text": "Trisha",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "New York City",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "her vacation",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "last summer",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "souvenirs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "First",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "0.1111111111111111 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "0.1111111111111111 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "her hotel",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 23,
+        "text": "the hotel",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 29,
+        "sentNum": 3,
+        "position": [
+          3,
+          10
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "a postcard shop",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "the postcard shop",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "T-shirt",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 22,
+        "text": "the T-shirt",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 24,
+        "sentNum": 3,
+        "position": [
+          3,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "a T-shirt shop",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "0.6666666666666666 of a mile from the T-shirt",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 24,
+        "sentNum": 3,
+        "position": [
+          3,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "a mile from the T-shirt",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 24,
+        "sentNum": 3,
+        "position": [
+          3,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

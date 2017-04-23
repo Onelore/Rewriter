@@ -1,0 +1,1280 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN carpenter))\n    (VP (VBD bought)\n      (NP\n        (NP (DT a) (NN piece))\n        (PP (IN of)\n          (NP (NN wood)))\n        (SBAR\n          (WHNP (WDT that))\n          (S\n            (VP (VBD was)\n              (ADVP\n                (NP (CD 8.9) (NNS centimeters))\n                (RB long)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 9,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "centimeters",
+          "dependent": 10,
+          "dependentGloss": "8.9"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 12,
+          "governorGloss": "long",
+          "dependent": 11,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 12,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 9,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "centimeters",
+          "dependent": 10,
+          "dependentGloss": "8.9"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 12,
+          "governorGloss": "long",
+          "dependent": 11,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 12,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 9,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "centimeters",
+          "dependent": 10,
+          "dependentGloss": "8.9"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 12,
+          "governorGloss": "long",
+          "dependent": 11,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "was",
+          "dependent": 12,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "carpenter",
+          "originalText": "carpenter",
+          "lemma": "carpenter",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 11,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 18,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 20,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "piece",
+          "originalText": "piece",
+          "lemma": "piece",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 26,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "wood",
+          "originalText": "wood",
+          "lemma": "wood",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "8.9",
+          "originalText": "8.9",
+          "lemma": "8.9",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.9",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "centimeters",
+          "originalText": "centimeters",
+          "lemma": "centimeter",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 59,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 64,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 65,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S (RB Then)\n    (NP (PRP he))\n    (VP (VBD sawed)\n      (NP (CD 2.3) (NNS centimeters))\n      (PP (IN off)\n        (NP (DT the) (NN end))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sawed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "centimeters",
+          "dependent": 4,
+          "dependentGloss": "2.3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 5,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 8,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sawed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "centimeters",
+          "dependent": 4,
+          "dependentGloss": "2.3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 5,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:off",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 8,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sawed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "centimeters",
+          "dependent": 4,
+          "dependentGloss": "2.3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 5,
+          "dependentGloss": "centimeters"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:off",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 8,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sawed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Then",
+          "originalText": "Then",
+          "lemma": "then",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 70,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 73,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "sawed",
+          "originalText": "sawed",
+          "lemma": "saw",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 79,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "2.3",
+          "originalText": "2.3",
+          "lemma": "2.3",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 83,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.3",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "centimeters",
+          "originalText": "centimeters",
+          "lemma": "centimeter",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "off",
+          "originalText": "off",
+          "lemma": "off",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "end",
+          "originalText": "end",
+          "lemma": "end",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 108,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ long))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (NN piece))\n        (PP (IN of)\n          (NP\n            (NP (NN wood))\n            (ADVP (RB now))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 8,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 8,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "piece",
+          "dependent": 7,
+          "dependentGloss": "wood"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "wood",
+          "dependent": 8,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 112,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 117,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 120,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "piece",
+          "originalText": "piece",
+          "lemma": "piece",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 130,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 133,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "wood",
+          "originalText": "wood",
+          "lemma": "wood",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "now",
+          "originalText": "now",
+          "lemma": "now",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 142,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 143,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "8.9",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A carpenter",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a piece of wood that was 8.9 centimeters long",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "the piece of wood now",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "8.9 centimeters",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "2.3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2.3 centimeters",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the end",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "wood now",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

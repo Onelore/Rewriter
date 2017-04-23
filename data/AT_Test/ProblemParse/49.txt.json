@@ -1,0 +1,1374 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Christian) (POS 's))\n      (NN mother))\n    (VP (VBD prepared)\n      (NP (NN lemonade)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "prepared"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "mother",
+          "dependent": 1,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Christian",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 3,
+          "dependentGloss": "mother"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 5,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "prepared"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "mother",
+          "dependent": 1,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Christian",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 3,
+          "dependentGloss": "mother"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 5,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "prepared"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "mother",
+          "dependent": 1,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Christian",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 3,
+          "dependentGloss": "mother"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 5,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "prepared",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Christian",
+          "originalText": "Christian",
+          "lemma": "Christian",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 9,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "'s",
+          "originalText": "’s",
+          "lemma": "'s",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "mother",
+          "originalText": "mother",
+          "lemma": "mother",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "prepared",
+          "originalText": "prepared",
+          "lemma": "prepare",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 27,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "lemonade",
+          "originalText": "lemonade",
+          "lemma": "lemonade",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 36,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT Every) (NN pitcher))\n      (PP (IN of)\n        (NP (NN lemonade))))\n    (VP (MD can)\n      (VP (VB serve)\n        (NP (CD 5) (NNS glasses))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 1,
+          "dependentGloss": "Every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "pitcher"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "lemonade",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 4,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 1,
+          "dependentGloss": "Every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "pitcher"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "lemonade",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 4,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 1,
+          "dependentGloss": "Every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "pitcher"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "lemonade",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "pitcher",
+          "dependent": 4,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Every",
+          "originalText": "Every",
+          "lemma": "every",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 43,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "pitcher",
+          "originalText": "pitcher",
+          "lemma": "pitcher",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "lemonade",
+          "originalText": "lemonade",
+          "lemma": "lemonade",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "serve",
+          "originalText": "serve",
+          "lemma": "serve",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 73,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "glasses",
+          "originalText": "glasses",
+          "lemma": "glass",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 83,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 84,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP she))\n        (VP (VBD was)\n          (ADJP (JJ able)\n            (S\n              (VP (TO to)\n                (VP (VB serve)\n                  (NP\n                    (NP (CD 30) (NNS glasses))\n                    (PP (IN of)\n                      (NP (NN lemonade)))))))))))\n    (, ,)\n    (WHNP\n      (WHNP\n        (WHADJP (WRB how) (JJ many))\n        (NNS pitchers))\n      (PP (IN of)\n        (NP (NN lemonade))))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB prepare)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "prepare"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 4,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lemonade",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 10,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 14,
+          "dependentGloss": "pitchers"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "lemonade",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 16,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 17,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 18,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "prepare"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 4,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lemonade",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 10,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 14,
+          "dependentGloss": "pitchers"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "lemonade",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 16,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 17,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 18,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "prepare"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 4,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "able",
+          "dependent": 6,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 7,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "serve",
+          "dependent": 8,
+          "dependentGloss": "glasses"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lemonade",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "glasses",
+          "dependent": 10,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 14,
+          "dependentGloss": "pitchers"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "lemonade",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "pitchers",
+          "dependent": 16,
+          "dependentGloss": "lemonade"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 17,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 18,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "prepare",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 87,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 91,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 95,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "able",
+          "originalText": "able",
+          "lemma": "able",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 100,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 103,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "serve",
+          "originalText": "serve",
+          "lemma": "serve",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 109,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "glasses",
+          "originalText": "glasses",
+          "lemma": "glass",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 120,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 123,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "lemonade",
+          "originalText": "lemonade",
+          "lemma": "lemonade",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 133,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 137,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "pitchers",
+          "originalText": "pitchers",
+          "lemma": "pitcher",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 151,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 154,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "lemonade",
+          "originalText": "lemonade",
+          "lemma": "lemonade",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 163,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 167,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "prepare",
+          "originalText": "prepare",
+          "lemma": "prepare",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 179,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 180,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Christian’s",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Christian’s mother",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "5 glasses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "30",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "30 glasses of lemonade",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

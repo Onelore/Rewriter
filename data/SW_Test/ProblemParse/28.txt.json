@@ -1,0 +1,1224 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NNP Ferris) (NN wheel))\n      (PP (IN in)\n        (NP (NNP Paradise) (NNP Park))))\n    (VP (VBZ has)\n      (NP (CD 14) (NNS seats)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 2,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 5,
+          "dependentGloss": "Paradise"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "Park"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "seats",
+          "dependent": 8,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "seats"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 2,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 5,
+          "dependentGloss": "Paradise"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "Park"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "seats",
+          "dependent": 8,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "seats"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 2,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Park",
+          "dependent": 5,
+          "dependentGloss": "Paradise"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "Park"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "seats",
+          "dependent": 8,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "seats"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Ferris",
+          "originalText": "Ferris",
+          "lemma": "Ferris",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "wheel",
+          "originalText": "wheel",
+          "lemma": "wheel",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Paradise",
+          "originalText": "Paradise",
+          "lemma": "Paradise",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 28,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Park",
+          "originalText": "Park",
+          "lemma": "Park",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 33,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "14",
+          "originalText": "14",
+          "lemma": "14",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "seats",
+          "originalText": "seats",
+          "lemma": "seat",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT Each) (NN seat))\n    (VP (MD can)\n      (VP (VB hold)\n        (NP (CD 6) (NNS people))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "seat",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 2,
+          "dependentGloss": "seat"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "seat",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 2,
+          "dependentGloss": "seat"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "seat",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 2,
+          "dependentGloss": "seat"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "hold",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Each",
+          "originalText": "Each",
+          "lemma": "each",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 52,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "seat",
+          "originalText": "seat",
+          "lemma": "seat",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 61,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "hold",
+          "originalText": "hold",
+          "lemma": "hold",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 75,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 76,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS people))\n    (SQ (MD can)\n      (VP (VB ride)\n        (NP (DT the) (NNP Ferris) (NN wheel))\n        (PP (IN at)\n          (NP (DT the) (JJ same) (NN time)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 7,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 8,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 11,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 12,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 7,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 8,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 11,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 12,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "wheel",
+          "dependent": 7,
+          "dependentGloss": "Ferris"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 8,
+          "dependentGloss": "wheel"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "time",
+          "dependent": 11,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 12,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 92,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "ride",
+          "originalText": "ride",
+          "lemma": "ride",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 101,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 105,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Ferris",
+          "originalText": "Ferris",
+          "lemma": "Ferris",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 112,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "wheel",
+          "originalText": "wheel",
+          "lemma": "wheel",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 125,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 130,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "time",
+          "originalText": "time",
+          "lemma": "time",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 135,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 136,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Paradise Park",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "14",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "The Ferris wheel in Paradise Park",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "the Ferris wheel",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "14 seats",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Each seat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "6 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the same time",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

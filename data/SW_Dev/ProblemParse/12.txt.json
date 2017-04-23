@@ -1,0 +1,836 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Tori))\n    (VP (VBD was)\n      (ADJP\n        (NP (CD 4.4) (NNS feet))\n        (JJ tall)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "feet",
+          "dependent": 3,
+          "dependentGloss": "4.4"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "feet",
+          "dependent": 3,
+          "dependentGloss": "4.4"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "feet",
+          "dependent": 3,
+          "dependentGloss": "4.4"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "tall",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Tori",
+          "originalText": "Tori",
+          "lemma": "Tori",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4.4",
+          "originalText": "4.4",
+          "lemma": "4.4",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.4",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "feet",
+          "originalText": "feet",
+          "lemma": "foot",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 17,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "tall",
+          "originalText": "tall",
+          "lemma": "tall",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 23,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S (RB Then)\n    (NP (PRP she))\n    (VP (VBD grew)\n      (NP\n        (NP (CD 2.86) (NNS feet))\n        (JJR taller)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "feet",
+          "dependent": 4,
+          "dependentGloss": "2.86"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "taller",
+          "dependent": 5,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 6,
+          "dependentGloss": "taller"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "feet",
+          "dependent": 4,
+          "dependentGloss": "2.86"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "taller",
+          "dependent": 5,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 6,
+          "dependentGloss": "taller"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "grew"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 1,
+          "dependentGloss": "Then"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "feet",
+          "dependent": 4,
+          "dependentGloss": "2.86"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "taller",
+          "dependent": 5,
+          "dependentGloss": "feet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 6,
+          "dependentGloss": "taller"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "grew",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Then",
+          "originalText": "Then",
+          "lemma": "then",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 28,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 32,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "grew",
+          "originalText": "grew",
+          "lemma": "grow",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "2.86",
+          "originalText": "2.86",
+          "lemma": "2.86",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 42,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.86",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "feet",
+          "originalText": "feet",
+          "lemma": "foot",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "taller",
+          "originalText": "taller",
+          "lemma": "taller",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 54,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 55,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ tall))\n    (SQ (VBZ is)\n      (NP (NNP Tori))\n      (ADVP (RB now)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "tall",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "Tori"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "is",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 59,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "tall",
+          "originalText": "tall",
+          "lemma": "tall",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 64,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 67,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Tori",
+          "originalText": "Tori",
+          "lemma": "Tori",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "now",
+          "originalText": "now",
+          "lemma": "now",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 77,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Tori",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "Tori",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "4.4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "4.4 feet",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "2.86",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "2.86 feet taller",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2.86 feet",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

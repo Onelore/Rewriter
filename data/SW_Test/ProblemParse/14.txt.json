@@ -1,0 +1,932 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Mrs.) (NNP Hilt))\n    (VP (VBD read)\n      (NP (CD 4) (NNS books)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Hilt",
+          "dependent": 1,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 2,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "books",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 5,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Hilt",
+          "dependent": 1,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 2,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "books",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 5,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Hilt",
+          "dependent": 1,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 2,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "books",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 5,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Mrs.",
+          "originalText": "Mrs.",
+          "lemma": "Mrs.",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Hilt",
+          "originalText": "Hilt",
+          "lemma": "Hilt",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 9,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "read",
+          "originalText": "read",
+          "lemma": "read",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 14,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 16,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 23,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT Each) (NN book))\n    (VP (VBD had)\n      (NP\n        (NP (CD 17) (NNS chapters))\n        (PP (IN in)\n          (NP (PRP it)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "book",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "it",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "book",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "it",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "book",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "it",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "chapters",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Each",
+          "originalText": "Each",
+          "lemma": "each",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 28,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 33,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "17",
+          "originalText": "17",
+          "lemma": "17",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "17.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "chapters",
+          "originalText": "chapters",
+          "lemma": "chapter",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 49,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 52,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 55,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS chapters))\n    (SQ (VBD did)\n      (NP (NNP Mrs.) (NNP Hilt))\n      (VP (VB read)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chapters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 3,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Hilt",
+          "dependent": 5,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chapters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 3,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Hilt",
+          "dependent": 5,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "read"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chapters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 3,
+          "dependentGloss": "chapters"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Hilt",
+          "dependent": 5,
+          "dependentGloss": "Mrs."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 6,
+          "dependentGloss": "Hilt"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "read",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "chapters",
+          "originalText": "chapters",
+          "lemma": "chapter",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 74,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Mrs.",
+          "originalText": "Mrs.",
+          "lemma": "Mrs.",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 83,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Hilt",
+          "originalText": "Hilt",
+          "lemma": "Hilt",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 88,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "read",
+          "originalText": "read",
+          "lemma": "read",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 93,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 94,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Mrs. Hilt",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "Mrs. Hilt",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "4 books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "17",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Each book",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "17 chapters in it",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

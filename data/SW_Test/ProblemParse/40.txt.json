@@ -1,0 +1,1703 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Suzie))\n    (VP\n      (VP (VBD found)\n        (NP (CD two) (NNS worms))\n        (PP (IN in)\n          (NP (DT the) (NN yard))))\n      (CC and)\n      (VP (VBD measured)\n        (NP (PRP them))\n        (PP (IN with)\n          (NP (DT a) (NN ruler)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Suzie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "worms",
+          "dependent": 3,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 4,
+          "dependentGloss": "worms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "yard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "measured"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 10,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 13,
+          "dependentGloss": "ruler"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Suzie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "worms",
+          "dependent": 3,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 4,
+          "dependentGloss": "worms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "yard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "measured"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 10,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 13,
+          "dependentGloss": "ruler"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Suzie"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 1,
+          "dependentGloss": "Suzie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "worms",
+          "dependent": 3,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 4,
+          "dependentGloss": "worms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "yard",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "yard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "measured"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 10,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "ruler",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "measured",
+          "dependent": 13,
+          "dependentGloss": "ruler"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Suzie",
+          "originalText": "Suzie",
+          "lemma": "Suzie",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "found",
+          "originalText": "found",
+          "lemma": "find",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 15,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "worms",
+          "originalText": "worms",
+          "lemma": "worm",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 24,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 28,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "yard",
+          "originalText": "yard",
+          "lemma": "yard",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 33,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "measured",
+          "originalText": "measured",
+          "lemma": "measure",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 46,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "them",
+          "originalText": "them",
+          "lemma": "they",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 56,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "ruler",
+          "originalText": "ruler",
+          "lemma": "ruler",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 64,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 65,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (CD One) (NN worm))\n    (VP (VBD was)\n      (NP\n        (NP (CD 0.8))\n        (PP (IN of)\n          (NP (DT an) (NN inch))))\n      (ADVP (RB long)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "0.8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 2,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 7,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 8,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "0.8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 2,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 7,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 8,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "0.8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 2,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 3,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 7,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 8,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "0.8",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "One",
+          "originalText": "One",
+          "lemma": "one",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "worm",
+          "originalText": "worm",
+          "lemma": "worm",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "0.8",
+          "originalText": "0.8",
+          "lemma": "0.8",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 82,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.8",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 85,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 88,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "inch",
+          "originalText": "inch",
+          "lemma": "inch",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 93,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 99,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ other) (NN worm))\n    (VP (VBD was)\n      (NP\n        (NP (CD 0.1))\n        (PP (IN of)\n          (NP (DT an) (NN inch))))\n      (ADVP (RB long)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "0.1"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 2,
+          "dependentGloss": "other"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 3,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 9,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "0.1"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 2,
+          "dependentGloss": "other"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 3,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 9,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "0.1"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "worm",
+          "dependent": 2,
+          "dependentGloss": "other"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 3,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 9,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "0.1",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "other",
+          "originalText": "other",
+          "lemma": "other",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 109,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "worm",
+          "originalText": "worm",
+          "lemma": "worm",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 114,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "0.1",
+          "originalText": "0.1",
+          "lemma": "0.1",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.1",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 125,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "inch",
+          "originalText": "inch",
+          "lemma": "inch",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 133,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WRB How) (RB much))\n      (ADJP (RBR longer)))\n    (SQ (VBD was)\n      (NP (DT the)\n        (ADJP (RBR longer))\n        (NN worm)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 6,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 7,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 6,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 7,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "worm",
+          "dependent": 6,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 7,
+          "dependentGloss": "worm"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "was",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 143,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 148,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "longer",
+          "originalText": "longer",
+          "lemma": "longer",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 155,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 163,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "longer",
+          "originalText": "longer",
+          "lemma": "longer",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 170,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "worm",
+          "originalText": "worm",
+          "lemma": "worm",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 175,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 176,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Suzie",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "two worms",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the yard",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "them",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a ruler",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "One",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "One worm",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "0.8 of an inch",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "an inch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "an inch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "The other worm",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "0.1 of an inch",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "the longer worm",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

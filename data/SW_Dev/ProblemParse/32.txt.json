@@ -1,0 +1,1294 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBZ is)\n      (NP\n        (NP (CD 0.16666666666666666))\n        (PP (IN of)\n          (NP\n            (NP (DT a) (NN cup))\n            (PP (IN of)\n              (NP\n                (NP (NN oil))\n                (PP (IN in)\n                  (S\n                    (NP (NNP Scarlett) (POS 's))\n                    (VP (VBG measuring)\n                      (NP (NN cup)))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "0.16666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "0.16666666666666666",
+          "dependent": 6,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 8,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 10,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Scarlett",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 12,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 13,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "0.16666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.16666666666666666",
+          "dependent": 6,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 8,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 10,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Scarlett",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 12,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 13,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "0.16666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.16666666666666666",
+          "dependent": 6,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "cup",
+          "dependent": 8,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 10,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Scarlett",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "oil",
+          "dependent": 12,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "measuring",
+          "dependent": 13,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 8,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "0.16666666666666666",
+          "originalText": "0.16666666666666666",
+          "lemma": "0.16666666666666666",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 28,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.16666666666666666",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 31,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 33,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cup",
+          "originalText": "cup",
+          "lemma": "cup",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "oil",
+          "originalText": "oil",
+          "lemma": "oil",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 44,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Scarlett",
+          "originalText": "Scarlett",
+          "lemma": "Scarlett",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 56,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 58,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "measuring",
+          "originalText": "measuring",
+          "lemma": "measure",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 68,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "cup",
+          "originalText": "cup",
+          "lemma": "cup",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 73,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (NNP Scarlett))\n        (VP (VBZ adds)\n          (NP\n            (NP (CD 0.6666666666666666))\n            (PP (IN of)\n              (ADVP\n                (NP (DT a) (NN cup))\n                (RBR more)))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ much))\n      (NN oil))\n    (SQ\n      (VP (MD will)\n        (VP (VB be)\n          (PP (IN in)\n            (NP (DT the) (VBG measuring) (NN cup))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 4,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cup",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 7,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "much",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "oil",
+          "dependent": 11,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 12,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 17,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 4,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cup",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 7,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "acl:of",
+          "governor": 4,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "much",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "oil",
+          "dependent": 11,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 12,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 17,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 2,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 3,
+          "dependentGloss": "adds"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "adds",
+          "dependent": 4,
+          "dependentGloss": "0.6666666666666666"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cup",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 8,
+          "governorGloss": "more",
+          "dependent": 7,
+          "dependentGloss": "cup"
+        },
+        {
+          "dep": "acl:of",
+          "governor": 4,
+          "governorGloss": "0.6666666666666666",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "much",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "oil",
+          "dependent": 11,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 12,
+          "dependentGloss": "oil"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 17,
+          "dependentGloss": "measuring"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "cup",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 76,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Scarlett",
+          "originalText": "Scarlett",
+          "lemma": "Scarlett",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 85,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "adds",
+          "originalText": "adds",
+          "lemma": "add",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 90,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "0.6666666666666666",
+          "originalText": "0.6666666666666666",
+          "lemma": "0.6666666666666666",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 109,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.6666666666666666",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cup",
+          "originalText": "cup",
+          "lemma": "cup",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 123,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 124,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 128,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 133,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "oil",
+          "originalText": "oil",
+          "lemma": "oil",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 137,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 148,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 152,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "measuring",
+          "originalText": "measuring",
+          "lemma": "measure",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 162,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "cup",
+          "originalText": "cup",
+          "lemma": "cup",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 167,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Scarlett's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "Scarlett",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "0.16666666666666666 of a cup of oil in Scarlett's measuring cup",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a cup of oil in Scarlett's measuring cup",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "the measuring cup",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "oil in Scarlett's measuring cup",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "0.6666666666666666 of a cup more",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a cup",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

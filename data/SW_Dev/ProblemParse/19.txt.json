@@ -1,0 +1,990 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBP have)\n      (NP (CD 648) (NNS pencils)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pencils",
+          "dependent": 3,
+          "dependentGloss": "648"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pencils",
+          "dependent": 3,
+          "dependentGloss": "648"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pencils",
+          "dependent": 3,
+          "dependentGloss": "648"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "I",
+          "originalText": "I",
+          "lemma": "I",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 6,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "648",
+          "originalText": "648",
+          "lemma": "648",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "648.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "pencils",
+          "originalText": "pencils",
+          "lemma": "pencil",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 19,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP I))\n        (VP (VBP put)\n          (NP\n            (NP (CD 4) (NNS pencils))\n            (PP (IN in)\n              (NP (DT each) (NN pencil) (NN box)))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NP\n        (NP (NN pencil))\n        (NP (NNS boxes))))\n    (SQ (MD will)\n      (NP (PRP I))\n      (VP (VB fill)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 2,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 3,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 5,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 7,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 8,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 9,
+          "dependentGloss": "box"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 13,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 14,
+          "dependentGloss": "boxes"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 15,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 16,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 2,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 3,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 5,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 7,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 8,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 9,
+          "dependentGloss": "box"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 13,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 14,
+          "dependentGloss": "boxes"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 15,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 16,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 2,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 3,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 4,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "put",
+          "dependent": 5,
+          "dependentGloss": "pencils"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 7,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "box",
+          "dependent": 8,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "pencils",
+          "dependent": 9,
+          "dependentGloss": "box"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 13,
+          "dependentGloss": "pencil"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "pencil",
+          "dependent": 14,
+          "dependentGloss": "boxes"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 15,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 16,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "fill",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 22,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "I",
+          "originalText": "I",
+          "lemma": "I",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 24,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "put",
+          "originalText": "put",
+          "lemma": "put",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 28,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 30,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "pencils",
+          "originalText": "pencils",
+          "lemma": "pencil",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 38,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 41,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 46,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pencil",
+          "originalText": "pencil",
+          "lemma": "pencil",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "box",
+          "originalText": "box",
+          "lemma": "box",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 62,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "pencil",
+          "originalText": "pencil",
+          "lemma": "pencil",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "boxes",
+          "originalText": "boxes",
+          "lemma": "box",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 80,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "I",
+          "originalText": "I",
+          "lemma": "I",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 87,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "fill",
+          "originalText": "fill",
+          "lemma": "fill",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 93,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "648",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "I",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "I",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "I",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "648 pencils",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "4 pencils in each pencil box",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "each pencil box",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "pencil boxes",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "boxes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

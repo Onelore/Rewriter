@@ -1,0 +1,1516 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Kaleen))\n    (VP (VBD filled)\n      (NP (DT a) (NN bucket))\n      (PP (IN with)\n        (NP\n          (NP (CD 0.75))\n          (PP (IN of)\n            (NP\n              (NP (DT a) (NN gallon))\n              (PP (IN of)\n                (NP (NN water))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "filled"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 1,
+          "dependentGloss": "Kaleen"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "bucket",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 4,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 6,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 9,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "water",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "filled"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 1,
+          "dependentGloss": "Kaleen"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "bucket",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 4,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 6,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 9,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "water",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "filled"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 1,
+          "dependentGloss": "Kaleen"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "bucket",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 4,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 6,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "0.75",
+          "dependent": 9,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "water",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "filled",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Kaleen",
+          "originalText": "Kaleen",
+          "lemma": "Kaleen",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "filled",
+          "originalText": "filled",
+          "lemma": "fill",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 13,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 15,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bucket",
+          "originalText": "bucket",
+          "lemma": "bucket",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "0.75",
+          "originalText": "0.75",
+          "lemma": "0.75",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 35,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "gallon",
+          "originalText": "gallon",
+          "lemma": "gallon",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 44,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "water",
+          "originalText": "water",
+          "lemma": "water",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 54,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (ADVP\n      (NP (DT A) (JJ few) (NNS minutes))\n      (RB later))\n    (, ,)\n    (NP (PRP she))\n    (VP (VBD realized)\n      (SBAR\n        (S\n          (NP\n            (NP\n              (QP (RB only) (CD 0.5)))\n            (PP (IN of)\n              (NP\n                (NP (DT a) (NN gallon))\n                (PP (IN of)\n                  (NP (NN water))))))\n          (VP (VBD remained)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "realized"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 4,
+          "governorGloss": "later",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 4,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 8,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "remained",
+          "dependent": 9,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 12,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "water",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 14,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 15,
+          "dependentGloss": "remained"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "realized"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 4,
+          "governorGloss": "later",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 4,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 8,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "remained",
+          "dependent": 9,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 12,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "water",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 14,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 15,
+          "dependentGloss": "remained"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "realized"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 4,
+          "governorGloss": "later",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 4,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 8,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "remained",
+          "dependent": 9,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "0.5",
+          "dependent": 12,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "water",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "gallon",
+          "dependent": 14,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 15,
+          "dependentGloss": "remained"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "realized",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": "DT",
+          "ner": "DATE",
+          "normalizedNER": "OFFSET PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "OFFSET PTXM"
+          }
+        },
+        {
+          "index": 2,
+          "word": "few",
+          "originalText": "few",
+          "lemma": "few",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "OFFSET PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "OFFSET PTXM"
+          }
+        },
+        {
+          "index": 3,
+          "word": "minutes",
+          "originalText": "minutes",
+          "lemma": "minute",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 68,
+          "pos": "NNS",
+          "ner": "DATE",
+          "normalizedNER": "OFFSET PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "OFFSET PTXM"
+          }
+        },
+        {
+          "index": 4,
+          "word": "later",
+          "originalText": "later",
+          "lemma": "later",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 74,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "OFFSET PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "OFFSET PTXM"
+          }
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 79,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "realized",
+          "originalText": "realized",
+          "lemma": "realize",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 88,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 93,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "0.5",
+          "originalText": "0.5",
+          "lemma": "0.5",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 102,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "gallon",
+          "originalText": "gallon",
+          "lemma": "gallon",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 109,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "water",
+          "originalText": "water",
+          "lemma": "water",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "remained",
+          "originalText": "remained",
+          "lemma": "remain",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 127,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 128,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ much))\n    (SQ\n      (NP (NN water))\n      (VP (VBD had)\n        (VP (VBN leaked)\n          (PRT (IN out))\n          (PP (IN of)\n            (NP (DT the) (NN bucket))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "leaked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 3,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 4,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 6,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 9,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "leaked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 3,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 4,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 6,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 9,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "leaked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 3,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 4,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 6,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "bucket",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 9,
+          "dependentGloss": "bucket"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "leaked",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 137,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "water",
+          "originalText": "water",
+          "lemma": "water",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 143,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 147,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "leaked",
+          "originalText": "leaked",
+          "lemma": "leak",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 154,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "out",
+          "originalText": "out",
+          "lemma": "out",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 158,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 161,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 165,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "bucket",
+          "originalText": "bucket",
+          "lemma": "bucket",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 172,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 173,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Kaleen",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a bucket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "the bucket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "0.75 of a gallon of water",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a gallon of water",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "a gallon of water",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "A few minutes",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "only 0.5 of a gallon of water",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

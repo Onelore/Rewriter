@@ -1,0 +1,1372 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (VP (MD Will)\n      (VP (VBD made)\n        (NP (CD 104) (NNS dollars) (VBG mowing) (NNS lawns))\n        (PP (IN over)\n          (NP (DT the) (NN summer)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "aux",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Will"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 3,
+          "dependentGloss": "104"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 5,
+          "dependentGloss": "mowing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "lawns"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 7,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 9,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "aux",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Will"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 3,
+          "dependentGloss": "104"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 5,
+          "dependentGloss": "mowing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "lawns"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 7,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 9,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "aux",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Will"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 3,
+          "dependentGloss": "104"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "lawns",
+          "dependent": 5,
+          "dependentGloss": "mowing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "lawns"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 7,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "summer",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 9,
+          "dependentGloss": "summer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Will",
+          "originalText": "Will",
+          "lemma": "will",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 5,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "made",
+          "originalText": "made",
+          "lemma": "make",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "104",
+          "originalText": "104",
+          "lemma": "104",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$104.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$104.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "mowing",
+          "originalText": "mowing",
+          "lemma": "mow",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 29,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "lawns",
+          "originalText": "lawns",
+          "lemma": "lawn",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 35,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "over",
+          "originalText": "over",
+          "lemma": "over",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 44,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "summer",
+          "originalText": "summer",
+          "lemma": "summer",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-SU",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-SU"
+          }
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 52,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP he))\n        (VP (VBD spent)\n          (NP\n            (NP (CD 41) (NNS dollars))\n            (VP (VBG buying)\n              (NP (JJ new) (NN mower) (NNS blades)))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NP\n        (NP (CD 9) (NN dollar))\n        (NP (NNS games))))\n    (SQ (MD could)\n      (NP (PRP he))\n      (VP (VB buy)\n        (PP (IN with)\n          (NP\n            (NP (DT the) (NN money))\n            (SBAR\n              (S\n                (NP (PRP he))\n                (VP (VBD had)\n                  (VP (VBN left)))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 7,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 8,
+          "dependentGloss": "mower"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "blades"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 13,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 15,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 21,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 22,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 23,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 24,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 7,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 8,
+          "dependentGloss": "mower"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "blades"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 13,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 15,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 21,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 22,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 23,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 24,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 7,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "blades",
+          "dependent": 8,
+          "dependentGloss": "mower"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "blades"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 13,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 14,
+          "dependentGloss": "dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "dollar",
+          "dependent": 15,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 21,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 22,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "left",
+          "dependent": 23,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "money",
+          "dependent": 24,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 55,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 58,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 64,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "41",
+          "originalText": "41",
+          "lemma": "41",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 67,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$41.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 75,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$41.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "buying",
+          "originalText": "buying",
+          "lemma": "buy",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 82,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "new",
+          "originalText": "new",
+          "lemma": "new",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mower",
+          "originalText": "mower",
+          "lemma": "mower",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 92,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "blades",
+          "originalText": "blades",
+          "lemma": "blade",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 99,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 104,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 109,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "9",
+          "originalText": "9",
+          "lemma": "9",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 111,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "dollar",
+          "originalText": "dollar",
+          "lemma": "dollar",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "MONEY",
+          "normalizedNER": "$9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 124,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "could",
+          "originalText": "could",
+          "lemma": "could",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 130,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 133,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 137,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 146,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 152,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 155,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "left",
+          "originalText": "left",
+          "lemma": "leave",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 164,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 25,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 165,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "104 dollars mowing lawns",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "the summer",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 22,
+        "endIndex": 23,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "new mower blades",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the money he had left",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 25,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

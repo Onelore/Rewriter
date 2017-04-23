@@ -1,0 +1,1527 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Roadster) (POS 's))\n      (NNP Paving) (NNP Company))\n    (VP (VBD used)\n      (NP\n        (NP (CD 10) (NNS tons))\n        (PP (IN of)\n          (NP (NN cement))))\n      (S\n        (VP (TO to)\n          (VP (VB pave)\n            (NP\n              (NP\n                (NP (NNP Lexi) (POS 's))\n                (NN street))\n              (CC and)\n              (NP\n                (NP (CD 5.1) (NNS tons))\n                (PP (IN of)\n                  (NP (NN cement)))))\n            (S\n              (VP (TO to)\n                (VP (VB pave)\n                  (NP\n                    (NP (NNP Tess) (POS 's))\n                    (NN street)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 1,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Roadster",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 3,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 4,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 7,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 11,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 12,
+          "dependentGloss": "Lexi"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Lexi",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 14,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "5.1"
+        },
+        {
+          "dep": "conj",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 17,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cement",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 19,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 20,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 21,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "street",
+          "dependent": 22,
+          "dependentGloss": "Tess"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "Tess",
+          "dependent": 23,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 24,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 1,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Roadster",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 3,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 4,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 7,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 11,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 12,
+          "dependentGloss": "Lexi"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Lexi",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 14,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "5.1"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 17,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cement",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 19,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 20,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 21,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "street",
+          "dependent": 22,
+          "dependentGloss": "Tess"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "Tess",
+          "dependent": 23,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 24,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 1,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Roadster",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Company",
+          "dependent": 3,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 4,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 7,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 11,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 12,
+          "dependentGloss": "Lexi"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Lexi",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 14,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "5.1"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 17,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "street",
+          "dependent": 17,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cement",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "tons",
+          "dependent": 19,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 20,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "pave",
+          "dependent": 21,
+          "dependentGloss": "pave"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "street",
+          "dependent": 22,
+          "dependentGloss": "Tess"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "Tess",
+          "dependent": 23,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "pave",
+          "dependent": 24,
+          "dependentGloss": "street"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "used",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Roadster",
+          "originalText": "Roadster",
+          "lemma": "Roadster",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 8,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Paving",
+          "originalText": "Paving",
+          "lemma": "Paving",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Company",
+          "originalText": "Company",
+          "lemma": "Company",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 25,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "used",
+          "originalText": "used",
+          "lemma": "use",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 38,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 41,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "pave",
+          "originalText": "pave",
+          "lemma": "pave",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 56,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Lexi",
+          "originalText": "Lexi",
+          "lemma": "Lexi",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 61,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 63,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "street",
+          "originalText": "street",
+          "lemma": "street",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 70,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "5.1",
+          "originalText": "5.1",
+          "lemma": "5.1",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.1",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 83,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 86,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 93,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "pave",
+          "originalText": "pave",
+          "lemma": "pave",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 101,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "Tess",
+          "originalText": "Tess",
+          "lemma": "Tess",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 106,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 108,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "street",
+          "originalText": "street",
+          "lemma": "street",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 25,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NN cement))\n    (SQ (VBD did)\n      (NP\n        (NP (NNP Roadster) (POS 's))\n        (NP (NNP Paving) (NNP Company)))\n      (VP (VB use)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cement",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 5,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Company",
+          "dependent": 7,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 8,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cement",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 5,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Company",
+          "dependent": 7,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 8,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cement",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 5,
+          "dependentGloss": "Roadster"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Company",
+          "dependent": 7,
+          "dependentGloss": "Paving"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "Roadster",
+          "dependent": 8,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 125,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Roadster",
+          "originalText": "Roadster",
+          "lemma": "Roadster",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 145,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 147,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Paving",
+          "originalText": "Paving",
+          "lemma": "Paving",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 154,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Company",
+          "originalText": "Company",
+          "lemma": "Company",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 162,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "use",
+          "originalText": "use",
+          "lemma": "use",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 169,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 173,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 174,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "10",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Lexi's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "5.1",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Tess's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 22,
+        "endIndex": 24,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Roadster's Paving Company",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "Roadster's Paving Company",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "Paving Company",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Roadster's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "10 tons of cement",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "Lexi's street and 5.1 tons of cement",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Lexi's street",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "5.1 tons of cement",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "Tess's street",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

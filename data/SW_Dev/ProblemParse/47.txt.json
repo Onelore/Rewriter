@@ -1,0 +1,1540 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Tony))\n    (VP (VBD had)\n      (NP ($ $) (CD 20)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "20",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "20",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "20",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Tony",
+          "originalText": "Tony",
+          "lemma": "Tony",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 10,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 13,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Tony))\n    (VP (VBD paid)\n      (NP ($ $) (CD 8))\n      (PP (IN for)\n        (NP (DT a) (NN ticket)))\n      (PP (TO to)\n        (NP (DT a) (NN baseball) (NN game))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "8",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 7,
+          "dependentGloss": "ticket"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 10,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 11,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "8",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 7,
+          "dependentGloss": "ticket"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 10,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 11,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "8",
+          "dependent": 3,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "ticket",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 7,
+          "dependentGloss": "ticket"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "game",
+          "dependent": 10,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 11,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Tony",
+          "originalText": "Tony",
+          "lemma": "Tony",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 18,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 23,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 25,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 26,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$8.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 32,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "ticket",
+          "originalText": "ticket",
+          "lemma": "ticket",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 44,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 58,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 59,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (PP (IN At)\n      (NP (DT the) (NN game)))\n    (, ,)\n    (NP (NNP Tony))\n    (VP (VBD bought)\n      (NP (DT a) (JJ hot) (NN dog))\n      (PP (IN for)\n        (NP ($ $) (CD 3))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 8,
+          "dependentGloss": "hot"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "dog"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 11,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 12,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 8,
+          "dependentGloss": "hot"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "dog"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 11,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 12,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "game",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dog",
+          "dependent": 8,
+          "dependentGloss": "hot"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "dog"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "3",
+          "dependent": 11,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 12,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "At",
+          "originalText": "At",
+          "lemma": "at",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 62,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 66,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Tony",
+          "originalText": "Tony",
+          "lemma": "Tony",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 77,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "hot",
+          "originalText": "hot",
+          "lemma": "hot",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dog",
+          "originalText": "dog",
+          "lemma": "dog",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 101,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$3.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 102,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WDT What) (NN amount))\n      (PP (IN of)\n        (NP (NN money))))\n    (SQ (VBD did)\n      (NP (NNP Tony))\n      (VP (VB have)\n        (NP (RB then))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "money",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "money",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "money",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "Tony"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 107,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "amount",
+          "originalText": "amount",
+          "lemma": "amount",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 114,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 117,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 127,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Tony",
+          "originalText": "Tony",
+          "lemma": "Tony",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 132,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 137,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "then",
+          "originalText": "then",
+          "lemma": "then",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 143,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Tony",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 2,
+        "text": "Tony",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "Tony",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "Tony",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a ticket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a baseball game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "the game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a hot dog",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "then",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

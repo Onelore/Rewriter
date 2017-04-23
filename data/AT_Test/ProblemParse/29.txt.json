@@ -1,0 +1,1178 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Sam))\n    (VP (VBD went)\n      (PP (TO to)\n        (NP (CD 14) (NN football) (NNS games)))\n      (NP-TMP (DT this) (NN year)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "year",
+          "dependent": 7,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "year",
+          "dependent": 7,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "year",
+          "dependent": 7,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Sam",
+          "originalText": "Sam",
+          "lemma": "Sam",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "14",
+          "originalText": "14",
+          "lemma": "14",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "football",
+          "originalText": "football",
+          "lemma": "football",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 23,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 29,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "DT",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1Y",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1Y"
+          }
+        },
+        {
+          "index": 8,
+          "word": "year",
+          "originalText": "year",
+          "lemma": "year",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1Y",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1Y"
+          }
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 40,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD went)\n      (PP (TO to)\n        (NP (CD 29) (NNS games)))\n      (NP-TMP (JJ last) (NN year)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "year",
+          "dependent": 6,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "year",
+          "dependent": 6,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "year",
+          "dependent": 6,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 48,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "29",
+          "originalText": "29",
+          "lemma": "29",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "29.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 60,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "  "
+        },
+        {
+          "index": 6,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1Y OFFSET P-1Y",
+          "speaker": "PER0",
+          "before": "  ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "altValue": "THIS P1Y OFFSET P-1Y"
+          }
+        },
+        {
+          "index": 7,
+          "word": "year",
+          "originalText": "year",
+          "lemma": "year",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1Y OFFSET P-1Y",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "altValue": "THIS P1Y OFFSET P-1Y"
+          }
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NN football) (NNS games))\n    (SQ (VBD did)\n      (NP (NNP Sam))\n      (VP (VB go)\n        (PP (TO to))\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 6,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 6,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 4,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 6,
+          "dependentGloss": "Sam"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "go",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "football",
+          "originalText": "football",
+          "lemma": "football",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 90,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 96,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 100,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Sam",
+          "originalText": "Sam",
+          "lemma": "Sam",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 104,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "go",
+          "originalText": "go",
+          "lemma": "go",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 107,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 110,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 113,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 117,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 119,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Sam",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "Sam",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "14",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "14 football games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "this year",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "29",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "29 games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "last year",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

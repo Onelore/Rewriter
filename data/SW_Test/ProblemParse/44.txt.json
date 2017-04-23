@@ -1,0 +1,1318 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Gwen))\n    (VP (VBD had)\n      (NP\n        (NP (CD 18) (NN math) (NNS problems)\n          (CC and)\n          (CD 11) (NN science) (NNS problems))\n        (PP (IN for)\n          (NP (NN homework)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Gwen"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 3,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 4,
+          "dependentGloss": "math"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 7,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 8,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 9,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "homework",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 11,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Gwen"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 3,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 4,
+          "dependentGloss": "math"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 7,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 8,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 9,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "homework",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 11,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Gwen"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 3,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 4,
+          "dependentGloss": "math"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 7,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "problems",
+          "dependent": 8,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 9,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 9,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "homework",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "problems",
+          "dependent": 11,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Gwen",
+          "originalText": "Gwen",
+          "lemma": "Gwen",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 9,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "18",
+          "originalText": "18",
+          "lemma": "18",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "18.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "math",
+          "originalText": "math",
+          "lemma": "math",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "problems",
+          "originalText": "problems",
+          "lemma": "problem",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 26,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "11",
+          "originalText": "11",
+          "lemma": "11",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "11.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "science",
+          "originalText": "science",
+          "lemma": "science",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 41,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "problems",
+          "originalText": "problems",
+          "lemma": "problem",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 50,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "homework",
+          "originalText": "homework",
+          "lemma": "homework",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 64,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP she))\n        (VP (VBD finished)\n          (NP\n            (NP (CD 24))\n            (PP (IN of)\n              (NP (DT the) (NNS problems))))\n          (PP (IN at)\n            (NP (NN school))))))\n    (, ,)\n    (WHADVP (WRB how)\n      (NP (JJ many) (NNS problems)))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB have)\n        (S\n          (VP (TO to)\n            (VP (VB do)\n              (PP (IN for)\n                (NP (NN homework))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "finished"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 7,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "school",
+          "dependent": 8,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 9,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "problems",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "how",
+          "dependent": 13,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "homework",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 20,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "finished"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 7,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "school",
+          "dependent": 8,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 9,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "problems",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "how",
+          "dependent": 13,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "homework",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 20,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "finished"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "problems",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 7,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "school",
+          "dependent": 8,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "finished",
+          "dependent": 9,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "problems",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "how",
+          "dependent": 13,
+          "dependentGloss": "problems"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "homework",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 18,
+          "governorGloss": "do",
+          "dependent": 20,
+          "dependentGloss": "homework"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "have",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "finished",
+          "originalText": "finished",
+          "lemma": "finish",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 80,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "24",
+          "originalText": "24",
+          "lemma": "24",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 83,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "24.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 86,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "problems",
+          "originalText": "problems",
+          "lemma": "problem",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 99,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 102,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "school",
+          "originalText": "school",
+          "lemma": "school",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 109,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 110,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 114,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "problems",
+          "originalText": "problems",
+          "lemma": "problem",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 128,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 141,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 144,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 147,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 151,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "homework",
+          "originalText": "homework",
+          "lemma": "homework",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 160,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 161,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Gwen",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "18",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "11",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "18 math problems and 11 science problems for homework",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "the problems",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "24 of the problems",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "many problems",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

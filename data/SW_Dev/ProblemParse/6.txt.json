@@ -1,0 +1,814 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (SINV\n    (S\n      (NP (DT A) (NN bee) (NN colony))\n      (VP\n        (VP (VBD produced)\n          (NP\n            (NP (CD 0.36) (NNS pounds))\n            (PP (IN of)\n              (NP (NN honey)))))\n        (, ,)\n        (CC but)\n        (VP (VBZ bears))))\n    (VP (VBD ate))\n    (NP\n      (NP (CD 0.05) (NNS pounds))\n      (PP (IN of)\n        (NP (PRP it))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 2,
+          "dependentGloss": "bee"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 3,
+          "dependentGloss": "colony"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 4,
+          "dependentGloss": "produced"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "0.36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "honey",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 10,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 11,
+          "dependentGloss": "bears"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 13,
+          "dependentGloss": "0.05"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 14,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "it",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 2,
+          "dependentGloss": "bee"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 3,
+          "dependentGloss": "colony"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 4,
+          "dependentGloss": "produced"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "0.36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "honey",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 10,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "conj:but",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 11,
+          "dependentGloss": "bears"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 13,
+          "dependentGloss": "0.05"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 14,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "it",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "colony",
+          "dependent": 2,
+          "dependentGloss": "bee"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 3,
+          "dependentGloss": "colony"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "bears",
+          "dependent": 3,
+          "dependentGloss": "colony"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 4,
+          "dependentGloss": "produced"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "0.36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "honey",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 10,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "conj:but",
+          "governor": 4,
+          "governorGloss": "produced",
+          "dependent": 11,
+          "dependentGloss": "bears"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 11,
+          "dependentGloss": "bears"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 13,
+          "dependentGloss": "0.05"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 14,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "it",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "pounds",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "ate",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bee",
+          "originalText": "bee",
+          "lemma": "bee",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 5,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "colony",
+          "originalText": "colony",
+          "lemma": "colony",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 12,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "produced",
+          "originalText": "produced",
+          "lemma": "produce",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 21,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "0.36",
+          "originalText": "0.36",
+          "lemma": "0.36",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 26,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "£0.36",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 33,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "£0.36",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 36,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "honey",
+          "originalText": "honey",
+          "lemma": "honey",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 42,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 43,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "but",
+          "originalText": "but",
+          "lemma": "but",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bears",
+          "originalText": "bears",
+          "lemma": "bear",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "ate",
+          "originalText": "ate",
+          "lemma": "eat",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "0.05",
+          "originalText": "0.05",
+          "lemma": "0.05",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 62,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "£0.05",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 69,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "£0.05",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 72,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 75,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 76,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NN honey))\n    (SQ\n      (VP (VBZ remains)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "remains"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "honey",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 3,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "remains"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "honey",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 3,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "remains"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "honey",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 3,
+          "dependentGloss": "honey"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "remains",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "honey",
+          "originalText": "honey",
+          "lemma": "honey",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "remains",
+          "originalText": "remains",
+          "lemma": "remain",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 99,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A bee colony",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

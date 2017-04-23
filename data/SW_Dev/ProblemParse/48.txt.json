@@ -1,0 +1,958 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNP Dan))\n      (VP (VBZ has)\n        (NP (CD 64) (NN violet) (NNS marbles))))\n    (, ,)\n    (NP (PRP he))\n    (VP (VBD gave)\n      (NP\n        (NP (NNP Mary) (CD 14))\n        (PP (IN of)\n          (NP (DT the) (NNS marbles)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "64"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 4,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 9,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 10,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 13,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "64"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 4,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 9,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 10,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 13,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "64"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "marbles",
+          "dependent": 4,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 9,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 10,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "marbles",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "Mary",
+          "dependent": 13,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "gave",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Dan",
+          "originalText": "Dan",
+          "lemma": "Dan",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 7,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "64",
+          "originalText": "64",
+          "lemma": "64",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "64.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "violet",
+          "originalText": "violet",
+          "lemma": "violet",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "marbles",
+          "originalText": "marbles",
+          "lemma": "marble",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 26,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "gave",
+          "originalText": "gave",
+          "lemma": "give",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Mary",
+          "originalText": "Mary",
+          "lemma": "Mary",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "14",
+          "originalText": "14",
+          "lemma": "14",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "marbles",
+          "originalText": "marbles",
+          "lemma": "marble",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 57,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NN violet) (NNS marbles))\n    (SQ\n      (VP (VBZ does)\n        (SBAR\n          (S\n            (NP (PRP he))\n            (ADVP (RB now))\n            (VP (VBP have))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 4,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 4,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "marbles",
+          "dependent": 3,
+          "dependentGloss": "violet"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 4,
+          "dependentGloss": "marbles"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 62,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "violet",
+          "originalText": "violet",
+          "lemma": "violet",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "marbles",
+          "originalText": "marbles",
+          "lemma": "marble",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 87,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 90,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "now",
+          "originalText": "now",
+          "lemma": "now",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 8,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 99,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 101,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Dan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "64",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "14",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "64 violet marbles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "the marbles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Mary 14 of the marbles",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

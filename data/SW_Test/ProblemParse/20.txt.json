@@ -1,0 +1,1845 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (JJ large) (NN bag))\n      (PP (IN of)\n        (NP (NNS balls))))\n    (VP (VBD was)\n      (VP (VBN kept)\n        (PP (IN under)\n          (NP\n            (NP (NNP Haley) (POS 's))\n            (NN bed)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "kept"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 8,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Haley",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 11,
+          "dependentGloss": "bed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "kept"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 8,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Haley",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:under",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 11,
+          "dependentGloss": "bed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "kept"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 8,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "bed",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Haley",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:under",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 11,
+          "dependentGloss": "bed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "kept",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bag",
+          "originalText": "bag",
+          "lemma": "bag",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 11,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 14,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "balls",
+          "originalText": "balls",
+          "lemma": "ball",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 24,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "kept",
+          "originalText": "kept",
+          "lemma": "keep",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 29,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "under",
+          "originalText": "under",
+          "lemma": "under",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 35,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Haley",
+          "originalText": "Haley",
+          "lemma": "Haley",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 41,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "'s",
+          "originalText": "’s",
+          "lemma": "'s",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bed",
+          "originalText": "bed",
+          "lemma": "bed",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP$ Her) (NN mom))\n    (VP (VBD placed)\n      (NP (DT the) (NNS balls))\n      (PP (IN in)\n        (NP\n          (NP (NNS bags))\n          (PP (IN for)\n            (NP (NNS children)))))\n      (PP (IN in)\n        (NP (JJ foster) (NNS homes))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "mom",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 2,
+          "dependentGloss": "mom"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 7,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "children",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 9,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 11,
+          "dependentGloss": "foster"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 12,
+          "dependentGloss": "homes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "mom",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 2,
+          "dependentGloss": "mom"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 7,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "children",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 9,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 11,
+          "dependentGloss": "foster"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 12,
+          "dependentGloss": "homes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "mom",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 2,
+          "dependentGloss": "mom"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "balls",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 7,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "children",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "bags",
+          "dependent": 9,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "homes",
+          "dependent": 11,
+          "dependentGloss": "foster"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 12,
+          "dependentGloss": "homes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "placed",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Her",
+          "originalText": "Her",
+          "lemma": "she",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 52,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "mom",
+          "originalText": "mom",
+          "lemma": "mom",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 56,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "placed",
+          "originalText": "placed",
+          "lemma": "place",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 63,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "balls",
+          "originalText": "balls",
+          "lemma": "ball",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 73,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 76,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bags",
+          "originalText": "bags",
+          "lemma": "bag",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "children",
+          "originalText": "children",
+          "lemma": "child",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 94,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 97,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "foster",
+          "originalText": "foster",
+          "lemma": "foster",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 104,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "homes",
+          "originalText": "homes",
+          "lemma": "home",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 110,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 111,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (S\n          (NP (DT every) (NN bag))\n          (VP (MD can)\n            (VP (VB contain)\n              (NP (CD 4) (NNS balls)))))\n        (CC and)\n        (S\n          (NP (NNP Haley))\n          (VP (VBZ has)\n            (NP (CD 36) (NNS balls))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NNS bags))\n    (SQ\n      (VP (MD will)\n        (VP (VB be)\n          (VP (VBN used)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 5,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "balls",
+          "dependent": 6,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 7,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 10,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "balls",
+          "dependent": 11,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "many",
+          "dependent": 14,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "bags",
+          "dependent": 15,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 16,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 17,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 5,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "balls",
+          "dependent": 6,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 7,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 10,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "balls",
+          "dependent": 11,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "many",
+          "dependent": 14,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "bags",
+          "dependent": 15,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 16,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 17,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bag",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 3,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 5,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "balls",
+          "dependent": 6,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 7,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "Haley"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "contain",
+          "dependent": 10,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 10,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "balls",
+          "dependent": 11,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "balls"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "many",
+          "dependent": 14,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "bags",
+          "dependent": 15,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 16,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 17,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "used",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "every",
+          "originalText": "every",
+          "lemma": "every",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 120,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bag",
+          "originalText": "bag",
+          "lemma": "bag",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 128,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "contain",
+          "originalText": "contain",
+          "lemma": "contain",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 136,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 138,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "balls",
+          "originalText": "balls",
+          "lemma": "ball",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 144,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 148,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Haley",
+          "originalText": "Haley",
+          "lemma": "Haley",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 154,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 158,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "36",
+          "originalText": "36",
+          "lemma": "36",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 161,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "36.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "balls",
+          "originalText": "balls",
+          "lemma": "ball",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 167,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 168,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 172,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 177,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "bags",
+          "originalText": "bags",
+          "lemma": "bag",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 182,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 187,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 190,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "used",
+          "originalText": "used",
+          "lemma": "use",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 195,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 196,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Haley’s",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "Her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "Haley",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A large bag of balls",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "balls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "the balls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Haley’s bed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Her mom",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "bags for children",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "children",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "foster homes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "36",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "4 balls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "36 balls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

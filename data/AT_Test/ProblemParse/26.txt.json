@@ -1,0 +1,1212 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ junior) (NN ranger))\n    (VP (VBD asked)\n      (S\n        (NP (NNP Christian))\n        (VP (TO to)\n          (VP (VB help)\n            (S\n              (NP (PRP him))\n              (VP (VB place)\n                (NP\n                  (NP (CD 420) (NNS seedlings))\n                  (PP (IN in)\n                    (NP (NNS packets))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 2,
+          "dependentGloss": "junior"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 3,
+          "dependentGloss": "ranger"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "help"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "him"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 9,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 10,
+          "dependentGloss": "420"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 11,
+          "dependentGloss": "seedlings"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "packets",
+          "dependent": 12,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 13,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 2,
+          "dependentGloss": "junior"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 3,
+          "dependentGloss": "ranger"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "help"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "him"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 9,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 10,
+          "dependentGloss": "420"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 11,
+          "dependentGloss": "seedlings"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "packets",
+          "dependent": 12,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 13,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "ranger",
+          "dependent": 2,
+          "dependentGloss": "junior"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 3,
+          "dependentGloss": "ranger"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "Christian"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "help"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "him"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "help",
+          "dependent": 9,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 10,
+          "dependentGloss": "420"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "place",
+          "dependent": 11,
+          "dependentGloss": "seedlings"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "packets",
+          "dependent": 12,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 11,
+          "governorGloss": "seedlings",
+          "dependent": 13,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "asked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "junior",
+          "originalText": "junior",
+          "lemma": "junior",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "ranger",
+          "originalText": "ranger",
+          "lemma": "ranger",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "asked",
+          "originalText": "asked",
+          "lemma": "ask",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 23,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Christian",
+          "originalText": "Christian",
+          "lemma": "Christian",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 33,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 36,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "help",
+          "originalText": "help",
+          "lemma": "help",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 41,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "him",
+          "originalText": "him",
+          "lemma": "he",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 45,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "place",
+          "originalText": "place",
+          "lemma": "place",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 51,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "420",
+          "originalText": "420",
+          "lemma": "420",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "420.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "seedlings",
+          "originalText": "seedlings",
+          "lemma": "seedling",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 65,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 68,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "packets",
+          "originalText": "packets",
+          "lemma": "packet",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 76,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 77,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (DT every) (NN packet))\n        (VP (VBZ needs)\n          (S\n            (VP (TO to)\n              (VP (VB contain)\n                (NP (CD 7) (NNS seeds))))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NNS packets))\n    (SQ (VBP do)\n      (NP (PRP they))\n      (VP (VB need)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "packet",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 3,
+          "dependentGloss": "packet"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 6,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "seeds",
+          "dependent": 7,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "seeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "packets",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 12,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 14,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "packet",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 3,
+          "dependentGloss": "packet"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 6,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "seeds",
+          "dependent": 7,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "seeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "packets",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 12,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 14,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "packet",
+          "dependent": 2,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 3,
+          "dependentGloss": "packet"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "needs",
+          "dependent": 6,
+          "dependentGloss": "contain"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "seeds",
+          "dependent": 7,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contain",
+          "dependent": 8,
+          "dependentGloss": "seeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "packets",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 12,
+          "dependentGloss": "packets"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 14,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "need",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 80,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "every",
+          "originalText": "every",
+          "lemma": "every",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "packet",
+          "originalText": "packet",
+          "lemma": "packet",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 93,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "needs",
+          "originalText": "needs",
+          "lemma": "need",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 99,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 102,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "contain",
+          "originalText": "contain",
+          "lemma": "contain",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 110,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 112,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "seeds",
+          "originalText": "seeds",
+          "lemma": "seed",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 118,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 119,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 123,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 128,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "packets",
+          "originalText": "packets",
+          "lemma": "packet",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 136,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 139,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 144,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "need",
+          "originalText": "need",
+          "lemma": "need",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 149,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 150,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Christian",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "him",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "420",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "The junior ranger",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "420 seedlings in packets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "packets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "7",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "7 seeds",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

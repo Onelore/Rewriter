@@ -1,0 +1,665 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (CD 0.20))\n      (PP (IN of)\n        (NP\n          (NP (DT a) (NN number))\n          (VP (VBN decreased)\n            (PP (IN by)\n              (NP (CD 4)))))))\n    (VP (VBZ is)\n      (ADJP (JJ equal)\n        (PP (TO to)\n          (NP (CD 6)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 1,
+          "dependentGloss": "0.20"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "0.20",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "decreased"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4",
+          "dependent": 6,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "decreased",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "6",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 11,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 1,
+          "dependentGloss": "0.20"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "0.20",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "decreased"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4",
+          "dependent": 6,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 5,
+          "governorGloss": "decreased",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "6",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 11,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 1,
+          "dependentGloss": "0.20"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "0.20",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "decreased"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4",
+          "dependent": 6,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 5,
+          "governorGloss": "decreased",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "6",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 11,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "0.20",
+          "originalText": "0.20",
+          "lemma": "0.20",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.2",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 7,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 9,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "decreased",
+          "originalText": "decreased",
+          "lemma": "decrease",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 26,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "equal",
+          "originalText": "equal",
+          "lemma": "equal",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 46,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP (DT the) (NN number)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 62,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 63,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "0.20 of a number decreased by 4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a number decreased by 4",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "the number",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

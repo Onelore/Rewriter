@@ -1,0 +1,1768 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (NNP Saturday)))\n    (, ,)\n    (NP (NNP Sara))\n    (VP (VBD spent)\n      (NP\n        (NP ($ $) (CD 10.62))\n        (NP (DT each)))\n      (PP (IN on)\n        (NP (CD 2) (NNS tickets)))\n      (PP (TO to)\n        (NP (DT a) (NN movie) (NN theater))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Saturday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "10.62"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 11,
+          "dependentGloss": "tickets"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 14,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 15,
+          "dependentGloss": "theater"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Saturday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "10.62"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 11,
+          "dependentGloss": "tickets"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 14,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 15,
+          "dependentGloss": "theater"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Saturday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "10.62"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "10.62",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tickets",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 11,
+          "dependentGloss": "tickets"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "theater",
+          "dependent": 14,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 15,
+          "dependentGloss": "theater"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Saturday",
+          "originalText": "Saturday",
+          "lemma": "Saturday",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 11,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-6"
+          }
+        },
+        {
+          "index": 3,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 12,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Sara",
+          "originalText": "Sara",
+          "lemma": "Sara",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 17,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 23,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 25,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$10.62",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "10.62",
+          "originalText": "10.62",
+          "lemma": "10.62",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 30,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$10.62",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 38,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "tickets",
+          "originalText": "tickets",
+          "lemma": "ticket",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 48,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 53,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "movie",
+          "originalText": "movie",
+          "lemma": "movie",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "theater",
+          "originalText": "theater",
+          "lemma": "theater",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (ADVP (RB also))\n    (VP\n      (VP (VBD rented)\n        (NP (DT a) (NN movie))\n        (PP (IN for)\n          (NP ($ $) (CD 1.59))))\n      (, ,)\n      (CC and)\n      (VP (VBD bought)\n        (NP (DT a) (NN movie))\n        (PP (IN for)\n          (NP ($ $) (CD 13.95)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 2,
+          "dependentGloss": "also"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "movie",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 7,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "1.59"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "movie",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 14,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 16,
+          "dependentGloss": "13.95"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 2,
+          "dependentGloss": "also"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "movie",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 7,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "1.59"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "movie",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 14,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 16,
+          "dependentGloss": "13.95"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 2,
+          "dependentGloss": "also"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "movie",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "1.59",
+          "dependent": 7,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "1.59"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "movie",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 13,
+          "dependentGloss": "movie"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 14,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "13.95",
+          "dependent": 15,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 16,
+          "dependentGloss": "13.95"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "rented",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "also",
+          "originalText": "also",
+          "lemma": "also",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 77,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "rented",
+          "originalText": "rented",
+          "lemma": "rent",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "movie",
+          "originalText": "movie",
+          "lemma": "movie",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 92,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 98,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$1.59",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "1.59",
+          "originalText": "1.59",
+          "lemma": "1.59",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 102,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$1.59",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 103,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 114,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "movie",
+          "originalText": "movie",
+          "lemma": "movie",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 122,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 126,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 128,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$13.95",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "13.95",
+          "originalText": "13.95",
+          "lemma": "13.95",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 133,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$13.95",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 134,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NP (NN money)\n        (PP (IN in)\n          (NP (NN total)))))\n    (SQ (VBD did)\n      (NP (NNP Sara))\n      (VP (VB spend)\n        (PP (IN on)\n          (NP (NNS movies)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "movies",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "movies"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "movies",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "movies"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "movies",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "movies"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 138,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 143,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 149,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 152,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 158,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 162,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Sara",
+          "originalText": "Sara",
+          "lemma": "Sara",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 173,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 176,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "movies",
+          "originalText": "movies",
+          "lemma": "movie",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 183,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 184,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Sara",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "Sara",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Saturday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "each",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "2 tickets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a movie theater",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "a movie",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "a movie",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "money in total",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "movies",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

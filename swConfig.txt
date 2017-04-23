@@ -1,0 +1,22 @@
+[DEFAULT]
+N=1000
+
+[info]
+N = 1000
+
+[theme]
+questions = data/SW_Dev/
+dir = externalData/scriptbase/traindev_flat
+old = math
+new = train_Star Wars (film).txt
+out = swFilm.txt
+parse = swFilm.txt.json
+lm = Movies.binary
+op = out/SW_GeneratedProblem.txt
+
+[weights]
+aW = 1
+dW = 1
+sW = 1
+tW = 1
+tLMW = 1

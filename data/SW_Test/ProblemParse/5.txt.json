@@ -1,0 +1,1342 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN bathing) (NN suit) (NN manufacturer))\n    (VP (VBZ has)\n      (NP\n        (NP (DT a) (NN supply))\n        (PP (IN of)\n          (NP\n            (NP (CD 14797) (NN bathing) (NNS suits))\n            (PP (IN for)\n              (NP (NNS men)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 2,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 3,
+          "dependentGloss": "suit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "manufacturer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 9,
+          "dependentGloss": "14797"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 11,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "men",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 13,
+          "dependentGloss": "men"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 2,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 3,
+          "dependentGloss": "suit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "manufacturer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 9,
+          "dependentGloss": "14797"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 11,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "men",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 13,
+          "dependentGloss": "men"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 2,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "manufacturer",
+          "dependent": 3,
+          "dependentGloss": "suit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "manufacturer"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 9,
+          "dependentGloss": "14797"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "supply",
+          "dependent": 11,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "men",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "suits",
+          "dependent": 13,
+          "dependentGloss": "men"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bathing",
+          "originalText": "bathing",
+          "lemma": "bathing",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 9,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "suit",
+          "originalText": "suit",
+          "lemma": "suit",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 14,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "manufacturer",
+          "originalText": "manufacturer",
+          "lemma": "manufacturer",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 33,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "supply",
+          "originalText": "supply",
+          "lemma": "supply",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 40,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "14797",
+          "originalText": "14797",
+          "lemma": "14797",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 49,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14797.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "bathing",
+          "originalText": "bathing",
+          "lemma": "bathing",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "suits",
+          "originalText": "suits",
+          "lemma": "suit",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 63,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "men",
+          "originalText": "men",
+          "lemma": "man",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (NN addition)))\n    (, ,)\n    (NP (PRP it))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 4969) (NN bathing) (NNS suits))\n        (PP (IN for)\n          (NP (NNS women)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 6,
+          "dependentGloss": "4969"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 7,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "women",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "women"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 6,
+          "dependentGloss": "4969"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 7,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "women",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "women"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 6,
+          "dependentGloss": "4969"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 7,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "women",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "suits",
+          "dependent": 10,
+          "dependentGloss": "women"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 75,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "addition",
+          "originalText": "addition",
+          "lemma": "addition",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 3,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 85,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 88,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "4969",
+          "originalText": "4969",
+          "lemma": "4969",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 97,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "4969 ",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bathing",
+          "originalText": "bathing",
+          "lemma": "bathing",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "suits",
+          "originalText": "suits",
+          "lemma": "suit",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 111,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "women",
+          "originalText": "women",
+          "lemma": "woman",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 121,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NN bathing))\n        (NP (NNS suits))))\n    (SQ (VBP are)\n      (ADJP (JJ available) (JJ overall)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 3,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 4,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 6,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 3,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 4,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 6,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 3,
+          "dependentGloss": "bathing"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "bathing",
+          "dependent": 4,
+          "dependentGloss": "suits"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 6,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "overall",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 126,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 131,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bathing",
+          "originalText": "bathing",
+          "lemma": "bathing",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 139,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "suits",
+          "originalText": "suits",
+          "lemma": "suit",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 145,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 149,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "available",
+          "originalText": "available",
+          "lemma": "available",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 159,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "overall",
+          "originalText": "overall",
+          "lemma": "overall",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 167,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 168,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "14797",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A bathing suit manufacturer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a supply of 14797 bathing suits for men",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "14797 bathing suits for men",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "men",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "4969 bathing suits for women",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "suits",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "women",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "bathing suits",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

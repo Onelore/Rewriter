@@ -1,0 +1,1000 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Lucy))\n    (VP (VBZ has)\n      (NP\n        (NP (DT an) (NN aquarium))\n        (PP (IN with)\n          (NP (CD 212) (NN fish)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "aquarium"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "212"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "aquarium"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "212"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "aquarium"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "212"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 4,
+          "governorGloss": "aquarium",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Lucy",
+          "originalText": "Lucy",
+          "lemma": "Lucy",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "aquarium",
+          "originalText": "aquarium",
+          "lemma": "aquarium",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 20,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 25,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "212",
+          "originalText": "212",
+          "lemma": "212",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "212.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "fish",
+          "originalText": "fish",
+          "lemma": "fish",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 35,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Lucy))\n    (VP (VBZ wants)\n      (S\n        (VP (TO to)\n          (VP (VB buy)\n            (NP (CD 68) (JJR more) (NN fish))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "68"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "68"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 5,
+          "dependentGloss": "68"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "fish",
+          "dependent": 6,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Lucy",
+          "originalText": "Lucy",
+          "lemma": "Lucy",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 40,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "wants",
+          "originalText": "wants",
+          "lemma": "want",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 49,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "68",
+          "originalText": "68",
+          "lemma": "68",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "68.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 61,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "fish",
+          "originalText": "fish",
+          "lemma": "fish",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 67,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NN fish))\n    (SQ (MD would)\n      (NP (NNP Lucy))\n      (VP (VBP have)\n        (ADVP (RB then))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "fish",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "fish",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "fish",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "fish"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Lucy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "fish",
+          "originalText": "fish",
+          "lemma": "fish",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 87,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Lucy",
+          "originalText": "Lucy",
+          "lemma": "Lucy",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 97,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "then",
+          "originalText": "then",
+          "lemma": "then",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 102,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 103,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Lucy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "Lucy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "Lucy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "212",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "an aquarium with 212 fish",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "212 fish",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "68",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "68 more fish",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

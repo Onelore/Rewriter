@@ -1,0 +1,1253 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Scarlett))\n    (VP (VBD made)\n      (NP (DT a) (NN fruit) (NN salad))\n      (PP (IN with)\n        (NP\n          (NP\n            (NP (CD 0.25))\n            (PP (IN of)\n              (NP\n                (NP (DT a) (NN pound))\n                (PP (IN of)\n                  (NP (NN melon))))))\n          (CC and)\n          (NP\n            (NP (CD 0.375))\n            (PP (IN of)\n              (NP\n                (NP (DT a) (NN pound))\n                (PP (IN of)\n                  (NP (NNS berries)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 4,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 5,
+          "dependentGloss": "salad"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 10,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "melon",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 12,
+          "dependentGloss": "melon"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 14,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "0.375",
+          "dependent": 17,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "berries",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 19,
+          "dependentGloss": "berries"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 4,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 5,
+          "dependentGloss": "salad"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 10,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "melon",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 12,
+          "dependentGloss": "melon"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 14,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "0.375",
+          "dependent": 17,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "berries",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 19,
+          "dependentGloss": "berries"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "salad",
+          "dependent": 4,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 5,
+          "dependentGloss": "salad"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 10,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "melon",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "pound",
+          "dependent": 12,
+          "dependentGloss": "melon"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 14,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "0.25",
+          "dependent": 14,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "0.375",
+          "dependent": 17,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "berries",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "pound",
+          "dependent": 19,
+          "dependentGloss": "berries"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Scarlett",
+          "originalText": "Scarlett",
+          "lemma": "Scarlett",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 8,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "made",
+          "originalText": "made",
+          "lemma": "make",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 13,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 15,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "fruit",
+          "originalText": "fruit",
+          "lemma": "fruit",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 21,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "salad",
+          "originalText": "salad",
+          "lemma": "salad",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "0.25",
+          "originalText": "0.25",
+          "lemma": "0.25",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "pound",
+          "originalText": "pound",
+          "lemma": "pound",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "melon",
+          "originalText": "melon",
+          "lemma": "melon",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 61,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "0.375",
+          "originalText": "0.375",
+          "lemma": "0.375",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 67,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.375",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "pound",
+          "originalText": "pound",
+          "lemma": "pound",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "berries",
+          "originalText": "berries",
+          "lemma": "berry",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 89,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS pounds))\n      (PP (IN of)\n        (NP (NN fruit))))\n    (SQ (VBD did)\n      (NP (NNP Scarlett))\n      (VP (VB use)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "fruit",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 7,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "fruit",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 7,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "fruit",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 7,
+          "dependentGloss": "Scarlett"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "all",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 99,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 106,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 109,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "fruit",
+          "originalText": "fruit",
+          "lemma": "fruit",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 119,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Scarlett",
+          "originalText": "Scarlett",
+          "lemma": "Scarlett",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 128,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "use",
+          "originalText": "use",
+          "lemma": "use",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 135,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 139,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 140,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Scarlett",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "Scarlett",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a fruit salad",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "0.25 of a pound of melon and 0.375 of a pound of berries",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "0.25 of a pound of melon",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a pound of melon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "0.375 of a pound of berries",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a pound of berries",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "berries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNP Alyssa))\n      (VP (VBZ has)\n        (NP (CD 37) (JJ blue) (NNS balloons))))\n    (PRN (, ,)\n      (S\n        (NP (NNP Sandy))\n        (VP (VBZ has)\n          (NP (CD 28) (JJ blue) (NNS balloons))))\n      (, ,))\n    (CC and)\n    (S\n      (NP (NNP Sally))\n      (VP (VBZ has)\n        (NP (CD 39) (JJ blue) (NNS balloons))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Alyssa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 4,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 9,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 10,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 16,
+          "dependentGloss": "39"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 17,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 18,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Alyssa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 4,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 9,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 10,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 16,
+          "dependentGloss": "39"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 17,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 18,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Alyssa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "balloons",
+          "dependent": 4,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "Sandy"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 9,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "balloons",
+          "dependent": 10,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 14,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 16,
+          "dependentGloss": "39"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "balloons",
+          "dependent": 17,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "has",
+          "dependent": 18,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Alyssa",
+          "originalText": "Alyssa",
+          "lemma": "Alyssa",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "37",
+          "originalText": "37",
+          "lemma": "37",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "37.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 18,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "balloons",
+          "originalText": "balloons",
+          "lemma": "balloon",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 28,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Sandy",
+          "originalText": "Sandy",
+          "lemma": "Sandy",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 34,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 38,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "28",
+          "originalText": "28",
+          "lemma": "28",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 41,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "28.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 46,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "balloons",
+          "originalText": "balloons",
+          "lemma": "balloon",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 55,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Sally",
+          "originalText": "Sally",
+          "lemma": "Sally",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 66,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "  "
+        },
+        {
+          "index": 15,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "  ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "39",
+          "originalText": "39",
+          "lemma": "39",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 74,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "39.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 79,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "balloons",
+          "originalText": "balloons",
+          "lemma": "balloon",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 88,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 89,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (ADJP (JJ blue))\n      (NNS balloons))\n    (SQ (VBP do)\n      (NP (PRP they))\n      (VP (VBP have)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "all",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "all",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "balloons",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "balloons"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "all",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 93,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 103,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "balloons",
+          "originalText": "balloons",
+          "lemma": "balloon",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 112,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 115,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 120,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 125,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 134,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Alyssa",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "37",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Sandy",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "28",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Sally",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "39",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "37 blue balloons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "28 blue balloons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "39 blue balloons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

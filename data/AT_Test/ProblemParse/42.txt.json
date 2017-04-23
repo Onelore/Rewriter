@@ -1,0 +1,2492 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN Before)\n      (S\n        (VP (VBG starting)\n          (NP (PRP$ her) (NN shift))\n          (, ,)\n          (S\n            (NP (DT a) (NN waitress) (NNS checks))\n            (VP (TO to)\n              (VP (VB make)\n                (ADJP (JJ sure))))))))\n    (NP (EX there))\n    (VP (VBZ is)\n      (NP\n        (NP (JJ enough) (NN mustard))\n        (PP (IN for)\n          (NP (PRP$ her) (NNS customers)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "starting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "shift",
+          "dependent": 3,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 4,
+          "dependentGloss": "shift"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 7,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 8,
+          "dependentGloss": "checks"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 10,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "expl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 14,
+          "dependentGloss": "enough"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 15,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 17,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 18,
+          "dependentGloss": "customers"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "starting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "shift",
+          "dependent": 3,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 4,
+          "dependentGloss": "shift"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 7,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 8,
+          "dependentGloss": "checks"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 10,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "expl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 14,
+          "dependentGloss": "enough"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 15,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 17,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 18,
+          "dependentGloss": "customers"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "starting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "shift",
+          "dependent": 3,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 4,
+          "dependentGloss": "shift"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "checks",
+          "dependent": 7,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 8,
+          "dependentGloss": "checks"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "starting",
+          "dependent": 10,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "expl",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 14,
+          "dependentGloss": "enough"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 15,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 18,
+          "governorGloss": "customers",
+          "dependent": 17,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "mustard",
+          "dependent": 18,
+          "dependentGloss": "customers"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "is",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Before",
+          "originalText": "Before",
+          "lemma": "before",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "starting",
+          "originalText": "starting",
+          "lemma": "start",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 15,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 19,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "shift",
+          "originalText": "shift",
+          "lemma": "shift",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 26,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 28,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "waitress",
+          "originalText": "waitress",
+          "lemma": "waitress",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 37,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "checks",
+          "originalText": "checks",
+          "lemma": "check",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 44,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 52,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "sure",
+          "originalText": "sure",
+          "lemma": "sure",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 57,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 63,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "enough",
+          "originalText": "enough",
+          "lemma": "enough",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 73,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "mustard",
+          "originalText": "mustard",
+          "lemma": "mustard",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 81,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "customers",
+          "originalText": "customers",
+          "lemma": "customer",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 99,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBZ finds)\n      (NP\n        (NP\n          (NP (CD 0.25))\n          (PP (IN of)\n            (NP\n              (NP (DT a) (NN bottle))\n              (PP (IN at)\n                (NP (DT the) (JJ first) (NN table))))))\n        (, ,)\n        (NP\n          (NP (CD 0.25))\n          (PP (IN of)\n            (NP\n              (NP (DT a) (NN bottle))\n              (PP (IN at)\n                (NP (DT the) (JJ second) (NN table))))))\n        (, ,)\n        (CC and)\n        (NP\n          (NP (CD 0.375))\n          (PP (IN of)\n            (NP\n              (NP (DT a) (NN bottle))\n              (PP (IN at)\n                (NP (DT the) (JJ third) (NN table))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 3,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 9,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 10,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 12,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "0.25",
+          "dependent": 15,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 16,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 18,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 19,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 22,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 22,
+          "governorGloss": "0.375",
+          "dependent": 25,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 26,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 28,
+          "dependentGloss": "third"
+        },
+        {
+          "dep": "nmod",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 29,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 3,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 9,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 10,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 12,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "0.25",
+          "dependent": 15,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 16,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 18,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 19,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 22,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 22,
+          "governorGloss": "0.375",
+          "dependent": 25,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 26,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 28,
+          "dependentGloss": "third"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 29,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 3,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 6,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "table",
+          "dependent": 9,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "bottle",
+          "dependent": 10,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 12,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 12,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "0.25",
+          "dependent": 15,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 16,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "table",
+          "dependent": 18,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 15,
+          "governorGloss": "bottle",
+          "dependent": 19,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 22,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "0.25",
+          "dependent": 22,
+          "dependentGloss": "0.375"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 22,
+          "governorGloss": "0.375",
+          "dependent": 25,
+          "dependentGloss": "bottle"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 26,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 27,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "table",
+          "dependent": 28,
+          "dependentGloss": "third"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 25,
+          "governorGloss": "bottle",
+          "dependent": 29,
+          "dependentGloss": "table"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "finds",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 104,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "finds",
+          "originalText": "finds",
+          "lemma": "find",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 110,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "0.25",
+          "originalText": "0.25",
+          "lemma": "0.25",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 118,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 120,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bottle",
+          "originalText": "bottle",
+          "lemma": "bottle",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 127,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 130,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 134,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "first",
+          "originalText": "first",
+          "lemma": "first",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 140,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "table",
+          "originalText": "table",
+          "lemma": "table",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 146,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 147,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "0.25",
+          "originalText": "0.25",
+          "lemma": "0.25",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 152,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 155,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 157,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "bottle",
+          "originalText": "bottle",
+          "lemma": "bottle",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 164,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 167,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "second",
+          "originalText": "second",
+          "lemma": "second",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 178,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "table",
+          "originalText": "table",
+          "lemma": "table",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 184,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 185,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 189,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "0.375",
+          "originalText": "0.375",
+          "lemma": "0.375",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 195,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.375",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 198,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 200,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "bottle",
+          "originalText": "bottle",
+          "lemma": "bottle",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 207,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 210,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 214,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "third",
+          "originalText": "third",
+          "lemma": "third",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 220,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "table",
+          "originalText": "table",
+          "lemma": "table",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 226,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 30,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 227,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (FRAG (RB Altogether))\n    (, ,)\n    (SBARQ\n      (WHNP\n        (WHNP\n          (WHADJP (WRB how) (JJ many))\n          (NNS bottles))\n        (PP (IN of)\n          (NP (NN mustard))))\n      (SQ (VBZ does)\n        (NP (DT the) (NN waitress))\n        (VP (VB find))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "Altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "many",
+          "dependent": 3,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 4,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mustard",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 7,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "waitress",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 10,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "Altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "many",
+          "dependent": 3,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 4,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mustard",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 7,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "waitress",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 10,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "Altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 2,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "many",
+          "dependent": 3,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 4,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "mustard",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "bottles",
+          "dependent": 7,
+          "dependentGloss": "mustard"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "waitress",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 10,
+          "dependentGloss": "waitress"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Altogether",
+          "originalText": "Altogether",
+          "lemma": "altogether",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 238,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 239,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 243,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 248,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "bottles",
+          "originalText": "bottles",
+          "lemma": "bottle",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 256,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 259,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "mustard",
+          "originalText": "mustard",
+          "lemma": "mustard",
+          "characterOffsetBegin": 260,
+          "characterOffsetEnd": 267,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 272,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 273,
+          "characterOffsetEnd": 276,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "waitress",
+          "originalText": "waitress",
+          "lemma": "waitress",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 285,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 286,
+          "characterOffsetEnd": 290,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 290,
+          "characterOffsetEnd": 291,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "her shift",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a waitress checks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "her customers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "first",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "second",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "third",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 28,
+        "endIndex": 29,
+        "sentNum": 2,
+        "position": [
+          2,
+          14
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "0.25 of a bottle at the first table, 0.25 of a bottle at the second table, and 0.375 of a bottle at the third table",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "0.25 of a bottle at the first table",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "a bottle at the first table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "the first table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "0.25 of a bottle at the second table",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "a bottle at the second table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "the second table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "0.375 of a bottle at the third table",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "a bottle at the third table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "the third table",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          13
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "the waitress",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

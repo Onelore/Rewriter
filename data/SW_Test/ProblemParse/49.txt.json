@@ -1,0 +1,922 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (PRP$ My) (NN car))\n    (VP (VBZ gets)\n      (NP\n        (NP (CD 20) (NNS miles))\n        (PP (IN per)\n          (NP\n            (NP (NN gallon))\n            (PP (IN of)\n              (NP (NN gas)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gets"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "My"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 5,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 6,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gas",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 9,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gets"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "My"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 5,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 6,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gas",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 9,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gets"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "My"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 5,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 6,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 5,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "gallon"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gas",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "gallon",
+          "dependent": 9,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gets",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "My",
+          "originalText": "My",
+          "lemma": "my",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "car",
+          "originalText": "car",
+          "lemma": "car",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 6,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "gets",
+          "originalText": "gets",
+          "lemma": "get",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 11,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 24,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "gallon",
+          "originalText": "gallon",
+          "lemma": "gallon",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 31,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "gas",
+          "originalText": "gas",
+          "lemma": "gas",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 38,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS miles))\n    (SQ (MD can)\n      (NP (PRP I))\n      (VP (VB drive)\n        (PP (IN on)\n          (NP\n            (NP (CD 5) (NNS gallons))\n            (PP (IN of)\n              (NP (NN gas)))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 8,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "gas",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 11,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 8,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "gas",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 11,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "miles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 8,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "gallons"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "gas",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "gallons",
+          "dependent": 11,
+          "dependentGloss": "gas"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "drive",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 48,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 54,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 58,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "I",
+          "originalText": "I",
+          "lemma": "I",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 60,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "drive",
+          "originalText": "drive",
+          "lemma": "drive",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 66,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "gallons",
+          "originalText": "gallons",
+          "lemma": "gallon",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 79,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 82,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "gas",
+          "originalText": "gas",
+          "lemma": "gas",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 87,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "20",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "My car",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "My",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "I",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "20 miles per gallon of gas",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "gallon of gas",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "5 gallons of gas",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

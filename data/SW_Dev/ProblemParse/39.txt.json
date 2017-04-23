@@ -1,0 +1,1009 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ first) (NN act))\n    (VP\n      (VP (VBD included)\n        (NP (CD 5) (NN clown) (NNS mobiles)))\n      (, ,)\n      (NP\n        (NP (DT each))\n        (VP (VBN stuffed)\n          (PP (IN with)\n            (NP (CD 28) (NNS clowns))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "included"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 3,
+          "dependentGloss": "act"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 7,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 10,
+          "dependentGloss": "stuffed"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 12,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "stuffed",
+          "dependent": 13,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "included"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 3,
+          "dependentGloss": "act"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 7,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 10,
+          "dependentGloss": "stuffed"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 12,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 10,
+          "governorGloss": "stuffed",
+          "dependent": 13,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "included"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "act",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 3,
+          "dependentGloss": "act"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 7,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 10,
+          "dependentGloss": "stuffed"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "clowns",
+          "dependent": 12,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 10,
+          "governorGloss": "stuffed",
+          "dependent": 13,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "included",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "first",
+          "originalText": "first",
+          "lemma": "first",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 9,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "act",
+          "originalText": "act",
+          "lemma": "act",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 13,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "included",
+          "originalText": "included",
+          "lemma": "include",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 22,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 24,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "clown",
+          "originalText": "clown",
+          "lemma": "clown",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "mobiles",
+          "originalText": "mobiles",
+          "lemma": "mobile",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 38,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 44,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "stuffed",
+          "originalText": "stuffed",
+          "lemma": "stuff",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 52,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 57,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "28",
+          "originalText": "28",
+          "lemma": "28",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 60,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "28.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "clowns",
+          "originalText": "clowns",
+          "lemma": "clown",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS clowns))\n    (SQ\n      (VP (VBP are)\n        (PP (IN inside)\n          (NP\n            (NP (PDT all) (DT the) (NN clown) (NNS mobiles))\n            (VP (VBN combined))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "clowns",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 3,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 8,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 10,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "clowns",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 3,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 8,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 10,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "mobiles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "clowns",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 3,
+          "dependentGloss": "clowns"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 5,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 6,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 8,
+          "dependentGloss": "clown"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 10,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "mobiles",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 77,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "clowns",
+          "originalText": "clowns",
+          "lemma": "clown",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 88,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "inside",
+          "originalText": "inside",
+          "lemma": "inside",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 95,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "PDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "clown",
+          "originalText": "clown",
+          "lemma": "clown",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 109,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "mobiles",
+          "originalText": "mobiles",
+          "lemma": "mobile",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 117,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "combined",
+          "originalText": "combined",
+          "lemma": "combine",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 126,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 127,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "first",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "28",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "The first act",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "5 clown mobiles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "each stuffed with 28 clowns",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 9,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "28 clowns",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

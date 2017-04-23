@@ -1,0 +1,1235 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (VP (TO To)\n        (VP (VB fill)\n          (NP (DT an) (NN order)))))\n    (, ,)\n    (NP (DT the) (NN factory))\n    (VP (VBD dyed)\n      (NP\n        (UCP\n          (VP\n            (NP (CD 61921) (NNS yards))\n            (PP (IN of)\n              (NP (NN silk) (JJ green))))\n          (CC and)\n          (NP (CD 49500) (NNS yards)))\n        (NN pink)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dyed"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 2,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "order",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 4,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "factory",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 7,
+          "dependentGloss": "factory"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 9,
+          "dependentGloss": "61921"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "pink",
+          "dependent": 10,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 12,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 13,
+          "dependentGloss": "green"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "yards",
+          "dependent": 15,
+          "dependentGloss": "49500"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 16,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 17,
+          "dependentGloss": "pink"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dyed"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 2,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "order",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 4,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "factory",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 7,
+          "dependentGloss": "factory"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 9,
+          "dependentGloss": "61921"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "pink",
+          "dependent": 10,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 12,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 13,
+          "dependentGloss": "green"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "yards",
+          "dependent": 15,
+          "dependentGloss": "49500"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 16,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 17,
+          "dependentGloss": "pink"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dyed"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 2,
+          "dependentGloss": "fill"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "order",
+          "dependent": 3,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "fill",
+          "dependent": 4,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "factory",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 7,
+          "dependentGloss": "factory"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 9,
+          "dependentGloss": "61921"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "pink",
+          "dependent": 10,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 12,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "silk",
+          "dependent": 13,
+          "dependentGloss": "green"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "yards",
+          "dependent": 15,
+          "dependentGloss": "49500"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "yards",
+          "dependent": 16,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "pink",
+          "dependent": 16,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 17,
+          "dependentGloss": "pink"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dyed",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "To",
+          "originalText": "To",
+          "lemma": "to",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "fill",
+          "originalText": "fill",
+          "lemma": "fill",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 7,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 17,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 21,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "factory",
+          "originalText": "factory",
+          "lemma": "factory",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 29,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dyed",
+          "originalText": "dyed",
+          "lemma": "dye",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "61921",
+          "originalText": "61921",
+          "lemma": "61921",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "61921.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "yards",
+          "originalText": "yards",
+          "lemma": "yard",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 49,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "silk",
+          "originalText": "silk",
+          "lemma": "silk",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "green",
+          "originalText": "green",
+          "lemma": "green",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 60,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 64,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "49500",
+          "originalText": "49500",
+          "lemma": "49500",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 70,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "49500.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "yards",
+          "originalText": "yards",
+          "lemma": "yard",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 76,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "pink",
+          "originalText": "pink",
+          "lemma": "pink",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 82,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS yards))\n      (PP (IN of)\n        (NP (NN silk))))\n    (SQ (VBD did)\n      (NP (PRP it))\n      (VP (VB dye)\n        (PP (IN for)\n          (NP (DT that) (NN order)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dye"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 3,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "silk",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 5,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 11,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dye"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 3,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "silk",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 5,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 11,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "dye"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 3,
+          "dependentGloss": "yards"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "silk",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "yards",
+          "dependent": 5,
+          "dependentGloss": "silk"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "order",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 11,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "dye",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "yards",
+          "originalText": "yards",
+          "lemma": "yard",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 97,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "silk",
+          "originalText": "silk",
+          "lemma": "silk",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 109,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dye",
+          "originalText": "dye",
+          "lemma": "dye",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 116,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 125,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 131,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "61921",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "49500",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "an order",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "that order",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the factory",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "61921 yards of silk green and 49500 yards pink",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "61921 yards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "silk green",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "49500 yards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Dan))\n    (VP (VBD found)\n      (SBAR\n        (S\n          (NP\n            (NP (CD 7) (NNS seashells))\n            (PP (CC but)\n              (NP (CD 3))))\n          (VP (VBD were)\n            (VP (VBN broken))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "3",
+          "dependent": 5,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 6,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 7,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "broken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "3",
+          "dependent": 5,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nmod:but",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 6,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 7,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "broken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "3",
+          "dependent": 5,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nmod:but",
+          "governor": 4,
+          "governorGloss": "seashells",
+          "dependent": 6,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "broken",
+          "dependent": 7,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 8,
+          "dependentGloss": "broken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Dan",
+          "originalText": "Dan",
+          "lemma": "Dan",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "found",
+          "originalText": "found",
+          "lemma": "find",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 9,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 11,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "seashells",
+          "originalText": "seashells",
+          "lemma": "seashell",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "but",
+          "originalText": "but",
+          "lemma": "but",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 25,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 27,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "broken",
+          "originalText": "broken",
+          "lemma": "break",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 39,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 40,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "  "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (JJ unbroken))\n        (NP (NNS seashells))))\n    (SQ (VBD did)\n      (NP (NNP Dan))\n      (VP (VB find)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 3,
+          "dependentGloss": "unbroken"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 3,
+          "dependentGloss": "unbroken"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 3,
+          "dependentGloss": "unbroken"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "unbroken",
+          "dependent": 4,
+          "dependentGloss": "seashells"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 5,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "Dan"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 45,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "  ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 50,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "unbroken",
+          "originalText": "unbroken",
+          "lemma": "unbroken",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 59,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "seashells",
+          "originalText": "seashells",
+          "lemma": "seashell",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 69,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 73,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Dan",
+          "originalText": "Dan",
+          "lemma": "Dan",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 77,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 82,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 84,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Dan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "Dan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "7",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "7 seashells but 3",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "7 seashells",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "seashells",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "unbroken seashells",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

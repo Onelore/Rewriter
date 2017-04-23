@@ -1,0 +1,2095 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Karin) (POS 's))\n      (NN science) (NN class))\n    (VP (VBD weighed)\n      (NP (JJ plastic) (NNS rings))\n      (PP (IN for)\n        (NP (DT an) (NN experiment))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 1,
+          "dependentGloss": "Karin"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Karin",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 3,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 4,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 7,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 9,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 10,
+          "dependentGloss": "experiment"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 1,
+          "dependentGloss": "Karin"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Karin",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 3,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 4,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 7,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 9,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 10,
+          "dependentGloss": "experiment"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 1,
+          "dependentGloss": "Karin"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Karin",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "class",
+          "dependent": 3,
+          "dependentGloss": "science"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 4,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 7,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "experiment",
+          "dependent": 9,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 10,
+          "dependentGloss": "experiment"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "weighed",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Karin",
+          "originalText": "Karin",
+          "lemma": "Karin",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 7,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "science",
+          "originalText": "science",
+          "lemma": "science",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "class",
+          "originalText": "class",
+          "lemma": "class",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 21,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "weighed",
+          "originalText": "weighed",
+          "lemma": "weigh",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 29,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "plastic",
+          "originalText": "plastic",
+          "lemma": "plastic",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 37,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "rings",
+          "originalText": "rings",
+          "lemma": "ring",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 43,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 50,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "experiment",
+          "originalText": "experiment",
+          "lemma": "experiment",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 61,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (PRP They))\n      (VP (VBD found)\n        (SBAR (IN that)\n          (S\n            (NP (DT the) (JJ orange) (NN ring))\n            (VP (VBD weighed)\n              (NP\n                (NP (CD 0.08333333333333333))\n                (PP (IN of)\n                  (NP (DT an) (NN ounce)))))))))\n    (PRN (, ,)\n      (S\n        (NP (DT the) (JJ purple) (NN ring))\n        (VP (VBD weighed)\n          (NP\n            (NP (CD 0.3333333333333333))\n            (PP (IN of)\n              (NP (DT an) (NN ounce))))))\n      (, ,))\n    (CC and)\n    (S\n      (NP (DT the) (JJ white) (NN ring))\n      (VP (VBD weighed)\n        (NP\n          (NP (CD 0.4166666666666667))\n          (PP (IN of)\n            (NP (DT an) (NN ounce))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 5,
+          "dependentGloss": "orange"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 6,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 8,
+          "dependentGloss": "0.08333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "0.08333333333333333",
+          "dependent": 11,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 14,
+          "dependentGloss": "purple"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 15,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 16,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 17,
+          "dependentGloss": "0.3333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 19,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "0.3333333333333333",
+          "dependent": 20,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 21,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 24,
+          "dependentGloss": "white"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 25,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 26,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 27,
+          "dependentGloss": "0.4166666666666667"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 28,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 29,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 27,
+          "governorGloss": "0.4166666666666667",
+          "dependent": 30,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 5,
+          "dependentGloss": "orange"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 6,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 8,
+          "dependentGloss": "0.08333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "0.08333333333333333",
+          "dependent": 11,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 14,
+          "dependentGloss": "purple"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 15,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 16,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 17,
+          "dependentGloss": "0.3333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 19,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "0.3333333333333333",
+          "dependent": 20,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 21,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 24,
+          "dependentGloss": "white"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 25,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 26,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 27,
+          "dependentGloss": "0.4166666666666667"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 28,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 29,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 27,
+          "governorGloss": "0.4166666666666667",
+          "dependent": 30,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "found"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "ring",
+          "dependent": 5,
+          "dependentGloss": "orange"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 6,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 7,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "weighed",
+          "dependent": 8,
+          "dependentGloss": "0.08333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "ounce",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "0.08333333333333333",
+          "dependent": 11,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "ring",
+          "dependent": 14,
+          "dependentGloss": "purple"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 15,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 16,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 17,
+          "dependentGloss": "0.3333333333333333"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "ounce",
+          "dependent": 19,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "0.3333333333333333",
+          "dependent": 20,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "weighed",
+          "dependent": 21,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "ring",
+          "dependent": 24,
+          "dependentGloss": "white"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 25,
+          "dependentGloss": "ring"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 26,
+          "dependentGloss": "weighed"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "weighed",
+          "dependent": 27,
+          "dependentGloss": "0.4166666666666667"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 28,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "ounce",
+          "dependent": 29,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 27,
+          "governorGloss": "0.4166666666666667",
+          "dependent": 30,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "found",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "They",
+          "originalText": "They",
+          "lemma": "they",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "found",
+          "originalText": "found",
+          "lemma": "find",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 73,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 78,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 82,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "orange",
+          "originalText": "orange",
+          "lemma": "orange",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 89,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "ring",
+          "originalText": "ring",
+          "lemma": "ring",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "weighed",
+          "originalText": "weighed",
+          "lemma": "weigh",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 102,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "0.08333333333333333",
+          "originalText": "0.08333333333333333",
+          "lemma": "0.08333333333333333",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.08333333333333333",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 125,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "ounce",
+          "originalText": "ounce",
+          "lemma": "ounce",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 134,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 135,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 139,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "purple",
+          "originalText": "purple",
+          "lemma": "purple",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 146,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "ring",
+          "originalText": "ring",
+          "lemma": "ring",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 151,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "weighed",
+          "originalText": "weighed",
+          "lemma": "weigh",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 159,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "0.3333333333333333",
+          "originalText": "0.3333333333333333",
+          "lemma": "0.3333333333333333",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 178,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.3333333333333333",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 181,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 184,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "ounce",
+          "originalText": "ounce",
+          "lemma": "ounce",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 190,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 191,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 195,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 199,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "white",
+          "originalText": "white",
+          "lemma": "white",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 205,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "ring",
+          "originalText": "ring",
+          "lemma": "ring",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 210,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "weighed",
+          "originalText": "weighed",
+          "lemma": "weigh",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 218,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "0.4166666666666667",
+          "originalText": "0.4166666666666667",
+          "lemma": "0.4166666666666667",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 237,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.4166666666666667",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 240,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 241,
+          "characterOffsetEnd": 243,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "ounce",
+          "originalText": "ounce",
+          "lemma": "ounce",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 249,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 31,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 250,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBD was)\n      (NP\n        (NP (DT the) (JJ total) (NN weight))\n        (PP (IN of)\n          (NP (DT the) (NN plastic) (NNS rings)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 8,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 9,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 8,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 9,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "rings",
+          "dependent": 8,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 9,
+          "dependentGloss": "rings"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 255,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 259,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 260,
+          "characterOffsetEnd": 263,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 264,
+          "characterOffsetEnd": 269,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 270,
+          "characterOffsetEnd": 276,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 279,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 280,
+          "characterOffsetEnd": 283,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "plastic",
+          "originalText": "plastic",
+          "lemma": "plastic",
+          "characterOffsetBegin": 284,
+          "characterOffsetEnd": 291,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "rings",
+          "originalText": "rings",
+          "lemma": "ring",
+          "characterOffsetBegin": 292,
+          "characterOffsetEnd": 297,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 297,
+          "characterOffsetEnd": 298,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Karin's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Karin's science class",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "plastic rings",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 16,
+        "text": "the plastic rings",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an experiment",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "They",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the orange ring",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "0.08333333333333333 of an ounce",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "an ounce",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "an ounce",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "an ounce",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 29,
+        "endIndex": 31,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the purple ring",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "0.3333333333333333 of an ounce",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the white ring",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 26,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "0.4166666666666667 of an ounce",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 31,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "the total weight of the plastic rings",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

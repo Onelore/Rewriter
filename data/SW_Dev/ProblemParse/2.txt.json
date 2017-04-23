@@ -1,0 +1,757 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN town))\n      (PP (IN of)\n        (NP (NNP Milburg))))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 5256) (NNS grown-ups))\n        (CC and)\n        (NP (CD 2987) (NNS children))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "town"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Milburg",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 4,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 6,
+          "dependentGloss": "5256"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "grown-ups"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "children",
+          "dependent": 9,
+          "dependentGloss": "2987"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 10,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "town"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Milburg",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 4,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 6,
+          "dependentGloss": "5256"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "grown-ups"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "children",
+          "dependent": 9,
+          "dependentGloss": "2987"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 10,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "town"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Milburg",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "town",
+          "dependent": 4,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 6,
+          "dependentGloss": "5256"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "grown-ups"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "children",
+          "dependent": 9,
+          "dependentGloss": "2987"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "grown-ups",
+          "dependent": 10,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "town",
+          "originalText": "town",
+          "lemma": "town",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Milburg",
+          "originalText": "Milburg",
+          "lemma": "Milburg",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 19,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 23,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "5256",
+          "originalText": "5256",
+          "lemma": "5256",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 28,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "5256 ",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "grown-ups",
+          "originalText": "grown-ups",
+          "lemma": "grown-up",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 38,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 42,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "2987",
+          "originalText": "2987",
+          "lemma": "2987",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2987",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "children",
+          "originalText": "children",
+          "lemma": "child",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 56,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 57,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS people))\n    (SQ\n      (VP (VBP live)\n        (PP (IN in)\n          (NP (NNP Milburg)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "live"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Milburg",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 6,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "live"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Milburg",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 6,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "live"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "people",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 3,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Milburg",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 6,
+          "dependentGloss": "Milburg"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "live",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 61,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 73,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "live",
+          "originalText": "live",
+          "lemma": "live",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 78,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Milburg",
+          "originalText": "Milburg",
+          "lemma": "Milburg",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 89,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Milburg",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "Milburg",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "The town of Milburg",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "5256 grown-ups and 2987 children",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "5256 grown-ups",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "2987 children",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

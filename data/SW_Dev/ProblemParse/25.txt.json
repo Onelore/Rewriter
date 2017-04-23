@@ -1,0 +1,1766 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Megan))\n    (VP (VBD was)\n      (VP (VBG organizing)\n        (NP (PRP$ her) (NN book) (NN case))\n        (S\n          (VP (VBG making)\n            (ADJP (JJ sure)\n              (SBAR\n                (S\n                  (NP\n                    (NP (DT each))\n                    (PP (IN of)\n                      (NP (DT the) (NNS shelves))))\n                  (VP (VBD had)\n                    (NP\n                      (NP (RB exactly) (CD 7) (NNS books))\n                      (PP (IN on)\n                        (NP (PRP it))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "organizing"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 1,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 6,
+          "dependentGloss": "case"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 7,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "making",
+          "dependent": 8,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 12,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "sure",
+          "dependent": 13,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 14,
+          "dependentGloss": "exactly"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 15,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "it",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "organizing"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 1,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 6,
+          "dependentGloss": "case"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 7,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "making",
+          "dependent": 8,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 12,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "sure",
+          "dependent": 13,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 14,
+          "dependentGloss": "exactly"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 15,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "it",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "organizing"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 1,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "case",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 6,
+          "dependentGloss": "case"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 7,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "making",
+          "dependent": 8,
+          "dependentGloss": "sure"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 12,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "sure",
+          "dependent": 13,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 14,
+          "dependentGloss": "exactly"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 15,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "had",
+          "dependent": 16,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "it",
+          "dependent": 17,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 16,
+          "governorGloss": "books",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "organizing",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Megan",
+          "originalText": "Megan",
+          "lemma": "Megan",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "organizing",
+          "originalText": "organizing",
+          "lemma": "organize",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 21,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 25,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "case",
+          "originalText": "case",
+          "lemma": "case",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "making",
+          "originalText": "making",
+          "lemma": "make",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "sure",
+          "originalText": "sure",
+          "lemma": "sure",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 52,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 55,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 59,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "shelves",
+          "originalText": "shelves",
+          "lemma": "shelf",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "exactly",
+          "originalText": "exactly",
+          "lemma": "exactly",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 79,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 81,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 87,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 90,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 93,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 94,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP she))\n        (VP (VBD had)\n          (NP\n            (NP\n              (NP (CD 8) (NNS shelves))\n              (PP (IN of)\n                (NP (NN mystery) (NNS books))))\n            (CC and)\n            (NP\n              (NP (CD 2) (NNS shelves))\n              (PP (IN of)\n                (NP (NN picture) (NNS books))))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NNS books))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB have)\n        (NP (NN total))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "mystery"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 8,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 13,
+          "dependentGloss": "picture"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 14,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "books",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 19,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 22,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "mystery"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 8,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 13,
+          "dependentGloss": "picture"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 14,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "books",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 19,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 22,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 4,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 5,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "mystery"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 8,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "shelves",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "books",
+          "dependent": 13,
+          "dependentGloss": "picture"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 14,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "books",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 19,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 22,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 97,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 101,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 105,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 107,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "shelves",
+          "originalText": "shelves",
+          "lemma": "shelf",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 115,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 118,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "mystery",
+          "originalText": "mystery",
+          "lemma": "mystery",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 126,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 132,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 138,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "shelves",
+          "originalText": "shelves",
+          "lemma": "shelf",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 146,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 149,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "picture",
+          "originalText": "picture",
+          "lemma": "picture",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 157,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 163,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 164,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 168,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 173,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 179,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 183,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 198,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 199,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Megan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 17,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "7",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "her book case",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "each of the shelves",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the shelves",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "exactly 7 books on it",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "8",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "8 shelves of mystery books and 2 shelves of picture books",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "8 shelves of mystery books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "mystery books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "2 shelves of picture books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "picture books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

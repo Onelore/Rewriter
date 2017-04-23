@@ -1,0 +1,1065 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN construction) (NN company))\n    (VP (VBD bought)\n      (NP\n        (NP\n          (NP (CD 5.91) (NNS tons))\n          (PP (IN of)\n            (NP (NN gravel))))\n        (CC and)\n        (NP\n          (NP (CD 8.11) (NNS tons))\n          (PP (IN of)\n            (NP (NN sand))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "construction"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "5.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "gravel",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 8,
+          "dependentGloss": "gravel"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "8.11"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "sand",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "sand"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "construction"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "5.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "gravel",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 8,
+          "dependentGloss": "gravel"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "8.11"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "sand",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "sand"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "construction"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "5.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "gravel",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 8,
+          "dependentGloss": "gravel"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "8.11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 11,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "sand",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "sand"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bought",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "construction",
+          "originalText": "construction",
+          "lemma": "construction",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 14,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 29,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "5.91",
+          "originalText": "5.91",
+          "lemma": "5.91",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.91",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "gravel",
+          "originalText": "gravel",
+          "lemma": "gravel",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 49,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "8.11",
+          "originalText": "8.11",
+          "lemma": "8.11",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 58,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.11",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 63,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "sand",
+          "originalText": "sand",
+          "lemma": "sand",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS tons))\n        (PP (IN of)\n          (NP (NN material)))))\n    (SQ (VBD did)\n      (NP (DT the) (NN company))\n      (VP (VB buy)\n        (PP (IN in)\n          (NP (DT all)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "material",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "material"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "company",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "material",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "material"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "company",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 3,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "material",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "tons",
+          "dependent": 5,
+          "dependentGloss": "material"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "company",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "all",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 11,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "buy",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "material",
+          "originalText": "material",
+          "lemma": "material",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 98,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 102,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 114,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 125,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 126,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "5.91",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "8.11",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A construction company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "the company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "5.91 tons of gravel and 8.11 tons of sand",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "5.91 tons of gravel",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "8.11 tons of sand",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "tons of material",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

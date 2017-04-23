@@ -1,0 +1,1451 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Isabel))\n    (VP (VBD was)\n      (VP (VBG selling)\n        (NP (PRP$ her) (NNS necklaces))\n        (PP (IN at)\n          (NP (DT a) (NN garage) (NN sale)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Isabel"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 8,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 9,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Isabel"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 8,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 9,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Isabel"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "sale",
+          "dependent": 8,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 9,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Isabel",
+          "originalText": "Isabel",
+          "lemma": "Isabel",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 7,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "selling",
+          "originalText": "selling",
+          "lemma": "sell",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 19,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 23,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "necklaces",
+          "originalText": "necklaces",
+          "lemma": "necklace",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 33,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 36,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 38,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "garage",
+          "originalText": "garage",
+          "lemma": "garage",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 45,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "sale",
+          "originalText": "sale",
+          "lemma": "sale",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 50,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 51,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBD sold)\n      (NP\n        (NP (CD 3) (NN bead) (NNS necklaces))\n        (CC and)\n        (NP (CD 3) (NN gem) (NN stone) (NNS necklaces))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "bead"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 8,
+          "dependentGloss": "gem"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 9,
+          "dependentGloss": "stone"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 10,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "bead"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 8,
+          "dependentGloss": "gem"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 9,
+          "dependentGloss": "stone"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 10,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 4,
+          "dependentGloss": "bead"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 5,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 8,
+          "dependentGloss": "gem"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "necklaces",
+          "dependent": 9,
+          "dependentGloss": "stone"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "necklaces",
+          "dependent": 10,
+          "dependentGloss": "necklaces"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bead",
+          "originalText": "bead",
+          "lemma": "bead",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "necklaces",
+          "originalText": "necklaces",
+          "lemma": "necklace",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 77,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 83,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "gem",
+          "originalText": "gem",
+          "lemma": "gem",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 87,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "stone",
+          "originalText": "stone",
+          "lemma": "stone",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "necklaces",
+          "originalText": "necklaces",
+          "lemma": "necklace",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 103,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 104,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (PP (IN If)\n      (NP\n        (NP (DT each) (NN necklace) (NN cost))\n        (NP (CD 6) (NNS dollars))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ much))\n      (NN money))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB earn)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "necklace"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "money",
+          "dependent": 9,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 10,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "necklace"
+        },
+        {
+          "dep": "nmod:if",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "money",
+          "dependent": 9,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 10,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "necklace"
+        },
+        {
+          "dep": "nmod:if",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "money",
+          "dependent": 9,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 10,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "earn",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 107,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 112,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "necklace",
+          "originalText": "necklace",
+          "lemma": "necklace",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 126,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 128,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 136,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 137,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 141,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 146,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 152,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 156,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "earn",
+          "originalText": "earn",
+          "lemma": "earn",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 165,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 166,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Isabel",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 3,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "her necklaces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a garage sale",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "3 bead necklaces and 3 gem stone necklaces",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "3 bead necklaces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "3 gem stone necklaces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "each necklace cost 6 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

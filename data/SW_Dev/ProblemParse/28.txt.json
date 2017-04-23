@@ -1,0 +1,1074 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (NP\n        (NP (CD 9) (NNS crayons))\n        (PP (IN in)\n          (NP (DT the) (NN drawer)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 7,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 7,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "crayons",
+          "dependent": 7,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 9,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "9",
+          "originalText": "9",
+          "lemma": "9",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 11,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "crayons",
+          "originalText": "crayons",
+          "lemma": "crayon",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 19,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 22,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "drawer",
+          "originalText": "drawer",
+          "lemma": "drawer",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 33,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 34,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Benny))\n    (VP (VBD placed)\n      (NP (CD 3) (JJR more) (NNS crayons))\n      (PP (IN in)\n        (NP (DT the) (NN drawer))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 1,
+          "dependentGloss": "Benny"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 4,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 8,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 1,
+          "dependentGloss": "Benny"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 4,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 8,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "placed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 1,
+          "dependentGloss": "Benny"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "crayons",
+          "dependent": 4,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 5,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "drawer",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 8,
+          "dependentGloss": "drawer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "placed",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Benny",
+          "originalText": "Benny",
+          "lemma": "Benny",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "placed",
+          "originalText": "placed",
+          "lemma": "place",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 47,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 49,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "crayons",
+          "originalText": "crayons",
+          "lemma": "crayon",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 62,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 65,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "drawer",
+          "originalText": "drawer",
+          "lemma": "drawer",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 76,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 77,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ many))\n    (SQ\n      (NP (NNS crayons))\n      (VP (VBP are)\n        (ADVP (RB now) (RB there))\n        (PP (IN in)\n          (NP (NN total)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "there",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "there",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "crayons"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "there",
+          "dependent": 5,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "crayons",
+          "originalText": "crayons",
+          "lemma": "crayon",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 94,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 98,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "now",
+          "originalText": "now",
+          "lemma": "now",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 102,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 6,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 119,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "9",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "9 crayons in the drawer",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "the drawer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "the drawer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Benny",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "3 more crayons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "crayons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

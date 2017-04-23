@@ -1,0 +1,1376 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP\n        (NP\n          (NP (NNP Vince) (POS 's))\n          (NN bus) (NN ride))\n        (PP (TO to)\n          (NP (NN school))))\n      (VP (VBZ is)\n        (NP\n          (NP (CD 0.625))\n          (PP (IN of)\n            (NP (DT a) (NN mile))))))\n    (CC and)\n    (S\n      (NP\n        (NP (NNP Zachary) (POS 's))\n        (NN bus) (NN ride))\n      (VP (VBZ is)\n        (NP\n          (NP (CD 0.5))\n          (PP (IN of)\n            (NP (DT a) (NN mile))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "0.625"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 1,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Vince",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 4,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "school",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 6,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 11,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Zachary",
+          "dependent": 14,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 15,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 17,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 18,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 20,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 21,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "0.625"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 1,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Vince",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 4,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "school",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 6,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 11,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Zachary",
+          "dependent": 14,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 15,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 17,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 18,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 20,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 21,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "0.625"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 1,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Vince",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 3,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 4,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "school",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "ride",
+          "dependent": 6,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 11,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 13,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Zachary",
+          "dependent": 14,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "ride",
+          "dependent": 15,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 17,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 18,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "mile",
+          "dependent": 20,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "0.5",
+          "dependent": 21,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "0.625",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Vince",
+          "originalText": "Vince",
+          "lemma": "Vince",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 7,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bus",
+          "originalText": "bus",
+          "lemma": "bus",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 11,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "ride",
+          "originalText": "ride",
+          "lemma": "ride",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "school",
+          "originalText": "school",
+          "lemma": "school",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 26,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "0.625",
+          "originalText": "0.625",
+          "lemma": "0.625",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 35,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.625",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 38,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 40,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 45,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Zachary",
+          "originalText": "Zachary",
+          "lemma": "Zachary",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 57,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "bus",
+          "originalText": "bus",
+          "lemma": "bus",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "ride",
+          "originalText": "ride",
+          "lemma": "ride",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 71,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "0.5",
+          "originalText": "0.5",
+          "lemma": "0.5",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 75,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 78,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 80,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WRB How) (RB much))\n      (ADJP (RBR longer)))\n    (SQ (VBZ is)\n      (NP\n        (NP\n          (NP (NNP Vince) (POS 's))\n          (NN bus) (NN ride))\n        (PP (IN than)\n          (NP (NNP Zachary) (POS 's)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 5,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Vince",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 7,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 9,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 10,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 5,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Vince",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 7,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 9,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nmod:'s",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 10,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "longer"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 5,
+          "dependentGloss": "Vince"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "Vince",
+          "dependent": 6,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 7,
+          "dependentGloss": "bus"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "ride"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 9,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nmod:'s",
+          "governor": 8,
+          "governorGloss": "ride",
+          "dependent": 10,
+          "dependentGloss": "Zachary"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Zachary",
+          "dependent": 11,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 95,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "longer",
+          "originalText": "longer",
+          "lemma": "longer",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 102,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 105,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Vince",
+          "originalText": "Vince",
+          "lemma": "Vince",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 111,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 113,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bus",
+          "originalText": "bus",
+          "lemma": "bus",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "ride",
+          "originalText": "ride",
+          "lemma": "ride",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 122,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Zachary",
+          "originalText": "Zachary",
+          "lemma": "Zachary",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 135,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 137,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 138,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Vince's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "Vince's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Zachary's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "Zachary's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Vince's bus ride to school",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 4,
+        "text": "0.625 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Zachary's bus ride",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "0.5 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "Vince's bus ride than Zachary's",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

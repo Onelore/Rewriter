@@ -1,0 +1,1514 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S (IN For)\n    (NP (NNP Halloween) (NNP Megan))\n    (VP (VBD received)\n      (NP\n        (NP (CD 11) (NNS pieces))\n        (PP (IN of)\n          (NP (NN candy))))\n      (PP (IN from)\n        (NP\n          (NP (NNS neighbors))\n          (CC and)\n          (NP (CD 5) (NNS pieces))))\n      (PP (IN from)\n        (NP (PRP$ her) (JJR older) (NN sister))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Megan",
+          "dependent": 2,
+          "dependentGloss": "Halloween"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 3,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "candy",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "neighbors"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "pieces",
+          "dependent": 12,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 13,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 15,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 16,
+          "dependentGloss": "older"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 17,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Megan",
+          "dependent": 2,
+          "dependentGloss": "Halloween"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 3,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "candy",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "neighbors"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "pieces",
+          "dependent": 12,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 13,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 15,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 16,
+          "dependentGloss": "older"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 17,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Megan",
+          "dependent": 2,
+          "dependentGloss": "Halloween"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 3,
+          "dependentGloss": "Megan"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "candy",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 9,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "neighbors"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "pieces",
+          "dependent": 12,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 13,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "neighbors",
+          "dependent": 13,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 15,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "sister",
+          "dependent": 16,
+          "dependentGloss": "older"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 17,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "received",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "For",
+          "originalText": "For",
+          "lemma": "for",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 4,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Halloween",
+          "originalText": "Halloween",
+          "lemma": "Halloween",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 14,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-10-31",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-10-31"
+          }
+        },
+        {
+          "index": 3,
+          "word": "Megan",
+          "originalText": "Megan",
+          "lemma": "Megan",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "received",
+          "originalText": "received",
+          "lemma": "receive",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 29,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "11",
+          "originalText": "11",
+          "lemma": "11",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 32,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "11.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pieces",
+          "originalText": "pieces",
+          "lemma": "piece",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 39,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "candy",
+          "originalText": "candy",
+          "lemma": "candy",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "neighbors",
+          "originalText": "neighbors",
+          "lemma": "neighbor",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 63,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 69,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "pieces",
+          "originalText": "pieces",
+          "lemma": "piece",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 76,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "older",
+          "originalText": "older",
+          "lemma": "older",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 91,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "sister",
+          "originalText": "sister",
+          "lemma": "sister",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 98,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 99,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP she))\n        (ADVP (RB only))\n        (VP (VBD ate)\n          (NP\n            (NP (CD 8) (NNS pieces))\n            (NP (DT a) (NN day))))))\n    (, ,)\n    (WHADVP (WRB how) (RB long))\n    (SQ\n      (VP (MD would))\n      (NP (DT the) (NN candy))\n      (ADVP (JJ last))\n      (NP (PRP$ her))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 4,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "long",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 11,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "candy",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 14,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 15,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 16,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 17,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 4,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "long",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 11,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "candy",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 14,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 15,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 16,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 17,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 4,
+          "dependentGloss": "ate"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ate",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "long",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 11,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "candy",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 14,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 15,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "dep",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 16,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "would",
+          "dependent": 17,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 102,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 111,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "ate",
+          "originalText": "ate",
+          "lemma": "eat",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 117,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pieces",
+          "originalText": "pieces",
+          "lemma": "piece",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 124,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 126,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 8,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 130,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 131,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 135,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 140,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 146,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 150,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "candy",
+          "originalText": "candy",
+          "lemma": "candy",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 156,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 161,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 165,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 166,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "11",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Halloween Megan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "11 pieces of candy",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "neighbors and 5 pieces",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "neighbors",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "5 pieces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "her older sister",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 15,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "8",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "8 pieces a day",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "a day",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "the candy",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

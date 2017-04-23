@@ -1,0 +1,1457 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NN Wendy))\n    (VP (VBD had)\n      (NP\n        (NP (CD 82) (NNS files))\n        (PP (IN on)\n          (NP (PRP$ her) (NN computer)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 3,
+          "dependentGloss": "82"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 6,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 7,
+          "dependentGloss": "computer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 3,
+          "dependentGloss": "82"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 6,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 7,
+          "dependentGloss": "computer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 3,
+          "dependentGloss": "82"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 7,
+          "governorGloss": "computer",
+          "dependent": 6,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "files",
+          "dependent": 7,
+          "dependentGloss": "computer"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Wendy",
+          "originalText": "Wendy",
+          "lemma": "wendy",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 6,
+          "pos": "NN",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "82",
+          "originalText": "82",
+          "lemma": "82",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "82.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "files",
+          "originalText": "files",
+          "lemma": "file",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 19,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 22,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "computer",
+          "originalText": "computer",
+          "lemma": "computer",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 36,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP\n      (VP (VBD deleted)\n        (NP\n          (NP (CD 37))\n          (PP (IN of)\n            (NP (PRP them)))))\n      (CC and)\n      (VP (VB put)\n        (NP (DT the) (NN rest))\n        (PP (IN into)\n          (NP\n            (NP (NNS folders))\n            (PP (IN with)\n              (NP\n                (NP (CD 5) (NNS files))\n                (PP (IN in)\n                  (NP (DT each) (CD one)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "them",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "37",
+          "dependent": 5,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 7,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rest",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 9,
+          "dependentGloss": "rest"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 11,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 13,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 14,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 16,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 17,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "them",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "37",
+          "dependent": 5,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 7,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rest",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 9,
+          "dependentGloss": "rest"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 11,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 13,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 14,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 16,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 17,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "37"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "them",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "37",
+          "dependent": 5,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 7,
+          "dependentGloss": "put"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "rest",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 9,
+          "dependentGloss": "rest"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 7,
+          "governorGloss": "put",
+          "dependent": 11,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 13,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 11,
+          "governorGloss": "folders",
+          "dependent": 14,
+          "dependentGloss": "files"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 15,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "one",
+          "dependent": 16,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 14,
+          "governorGloss": "files",
+          "dependent": 17,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "deleted",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 40,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "deleted",
+          "originalText": "deleted",
+          "lemma": "delete",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 48,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "37",
+          "originalText": "37",
+          "lemma": "37",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "37.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "them",
+          "originalText": "them",
+          "lemma": "they",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 59,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 63,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "put",
+          "originalText": "put",
+          "lemma": "put",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "rest",
+          "originalText": "rest",
+          "lemma": "rest",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "into",
+          "originalText": "into",
+          "lemma": "into",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "folders",
+          "originalText": "folders",
+          "lemma": "folder",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 89,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 96,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "files",
+          "originalText": "files",
+          "lemma": "file",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 102,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 105,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 110,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "one",
+          "originalText": "one",
+          "lemma": "one",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 114,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 115,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS folders))\n    (SQ (VBD did)\n      (NP (NN Wendy))\n      (VP (VB end)\n        (PRT (RP up))\n        (PP (IN with))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 5,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 5,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "folders"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 5,
+          "dependentGloss": "Wendy"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 7,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "folders",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "end",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 119,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 124,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "folders",
+          "originalText": "folders",
+          "lemma": "folder",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 132,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Wendy",
+          "originalText": "Wendy",
+          "lemma": "wendy",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 142,
+          "pos": "NN",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "end",
+          "originalText": "end",
+          "lemma": "end",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 146,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 149,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 154,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 155,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "82",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "82 files on her computer",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "her computer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "37 of them",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "them",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the rest",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "folders with 5 files in each one",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "5 files in each one",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "each one",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

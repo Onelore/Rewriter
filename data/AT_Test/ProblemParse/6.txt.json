@@ -1,0 +1,1392 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (NP\n        (NP (CD 1986) (NNS books))\n        (PP (IN in)\n          (NP\n            (NP (NNP Oak) (NNP Grove) (POS 's))\n            (JJ public) (NN library)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "1986"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 6,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 7,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 9,
+          "dependentGloss": "public"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 10,
+          "dependentGloss": "library"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "1986"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 6,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 7,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 9,
+          "dependentGloss": "public"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 10,
+          "dependentGloss": "library"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "1986"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 6,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 7,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "library",
+          "dependent": 9,
+          "dependentGloss": "public"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 10,
+          "dependentGloss": "library"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 9,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "1986",
+          "originalText": "1986",
+          "lemma": "1986",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "1986",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 23,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Oak",
+          "originalText": "Oak",
+          "lemma": "Oak",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 27,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Grove",
+          "originalText": "Grove",
+          "lemma": "Grove",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 33,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 35,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "public",
+          "originalText": "public",
+          "lemma": "public",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "library",
+          "originalText": "library",
+          "lemma": "library",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 50,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 51,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (NN addition)))\n    (, ,)\n    (NP (EX there))\n    (VP (VBP are)\n      (NP\n        (NP (CD 5106) (NNS books))\n        (PP (IN in)\n          (NP (PRP$ its) (NN school) (NNS libraries)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "5106"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 10,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 11,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "5106"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 10,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 11,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "addition",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "addition"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 6,
+          "dependentGloss": "5106"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "libraries",
+          "dependent": 10,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "books",
+          "dependent": 11,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "addition",
+          "originalText": "addition",
+          "lemma": "addition",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 3,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 64,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 70,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "5106",
+          "originalText": "5106",
+          "lemma": "5106",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 79,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "5106 ",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 85,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 88,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "school",
+          "originalText": "school",
+          "lemma": "school",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 99,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "libraries",
+          "originalText": "libraries",
+          "lemma": "library",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 109,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 110,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS books))\n    (SQ\n      (VP (VBP do)\n        (SBAR\n          (S\n            (NP\n              (NP (DT the) (NNS libraries))\n              (PP (IN in)\n                (NP (NNP Oak) (NNP Grove))))\n            (VP (VBP have)\n              (NP (JJ overall)))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "books",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 10,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "books",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 10,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "books",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "libraries"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Grove",
+          "dependent": 8,
+          "dependentGloss": "Oak"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "libraries",
+          "dependent": 9,
+          "dependentGloss": "Grove"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 10,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "overall"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "do",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 114,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 125,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "libraries",
+          "originalText": "libraries",
+          "lemma": "library",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 142,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Oak",
+          "originalText": "Oak",
+          "lemma": "Oak",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 149,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Grove",
+          "originalText": "Grove",
+          "lemma": "Grove",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 155,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 160,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "overall",
+          "originalText": "overall",
+          "lemma": "overall",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 168,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 169,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Oak Grove's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "Oak Grove",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "1986 books in Oak Grove's public library",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Oak Grove's public library",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "its",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "5106 books in its school libraries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "its school libraries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the libraries in Oak Grove",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "overall",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

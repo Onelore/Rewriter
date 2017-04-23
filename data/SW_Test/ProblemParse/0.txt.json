@@ -1,0 +1,683 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Lisa))\n    (VP (VBD rented)\n      (NP (CD 4) (NNS DVDs))\n      (PP (IN for)\n        (NP ($ $) (CD 4.80))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Lisa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "DVDs",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 4,
+          "dependentGloss": "DVDs"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 7,
+          "dependentGloss": "4.80"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Lisa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "DVDs",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 4,
+          "dependentGloss": "DVDs"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 7,
+          "dependentGloss": "4.80"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Lisa"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "DVDs",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 4,
+          "dependentGloss": "DVDs"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "4.80",
+          "dependent": 6,
+          "dependentGloss": "$"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 7,
+          "dependentGloss": "4.80"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Lisa",
+          "originalText": "Lisa",
+          "lemma": "Lisa",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "rented",
+          "originalText": "rented",
+          "lemma": "rent",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 13,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "DVDs",
+          "originalText": "DVDs",
+          "lemma": "dvd",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 18,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 22,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "$",
+          "originalText": "$",
+          "lemma": "$",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 24,
+          "pos": "$",
+          "ner": "MONEY",
+          "normalizedNER": "$4.8",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "4.80",
+          "originalText": "4.80",
+          "lemma": "4.80",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 28,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$4.8",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 29,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ\n      (VP (VBD did)\n        (NP (DT each) (NN DVD) (NN cost))\n        (S\n          (VP (TO to)\n            (VP (VB rent))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "DVD"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "rent",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 8,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "DVD"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "rent",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 8,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "DVD"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "rent",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 8,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 33,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 38,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 42,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "DVD",
+          "originalText": "DVD",
+          "lemma": "dvd",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 56,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "rent",
+          "originalText": "rent",
+          "lemma": "rent",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 64,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 65,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Lisa",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "4 DVDs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "each DVD cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

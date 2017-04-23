@@ -1,0 +1,757 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Connie))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 2315) (JJ red) (NNS markers))\n        (CC and)\n        (NP (CD 1028) (JJ blue) (NNS markers))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 3,
+          "dependentGloss": "2315"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 7,
+          "dependentGloss": "1028"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 8,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 9,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 3,
+          "dependentGloss": "2315"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 7,
+          "dependentGloss": "1028"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 8,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 9,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 3,
+          "dependentGloss": "2315"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 7,
+          "dependentGloss": "1028"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "markers",
+          "dependent": 8,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "markers",
+          "dependent": 9,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Connie",
+          "originalText": "Connie",
+          "lemma": "Connie",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "2315",
+          "originalText": "2315",
+          "lemma": "2315",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2315",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "red",
+          "originalText": "red",
+          "lemma": "red",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 19,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "markers",
+          "originalText": "markers",
+          "lemma": "marker",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "1028",
+          "originalText": "1028",
+          "lemma": "1028",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 36,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "1028",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 41,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "markers",
+          "originalText": "markers",
+          "lemma": "marker",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 49,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 50,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADVP (WRB How)\n      (NP (JJ many) (NNS markers)))\n    (SQ (VBZ does)\n      (NP (NNP Connie))\n      (VP (VB have)\n        (S\n          (ADVP (RB altogether)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "markers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "markers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "markers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "How",
+          "dependent": 3,
+          "dependentGloss": "markers"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "Connie"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 54,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 59,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "markers",
+          "originalText": "markers",
+          "lemma": "marker",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Connie",
+          "originalText": "Connie",
+          "lemma": "Connie",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 79,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 84,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "altogether",
+          "originalText": "altogether",
+          "lemma": "altogether",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 95,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 96,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Connie",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "Connie",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "UNKNOWN",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2315 red markers and 1028 blue markers",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "2315 red markers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "1028 blue markers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "many markers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

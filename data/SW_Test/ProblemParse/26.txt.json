@@ -1,0 +1,931 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Sara))\n    (VP (VBD picked)\n      (SBAR\n        (S\n          (NP\n            (NP (CD 45) (NNS pears))\n            (CC and)\n            (NP (NNP Sally)))\n          (VP (VBD picked)\n            (NP (CD 11) (NNS pears))\n            (PP (IN from)\n              (NP (DT the) (NN pear) (NN tree)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 1,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 3,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 6,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "pears",
+          "dependent": 8,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 10,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 12,
+          "dependentGloss": "pear"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 13,
+          "dependentGloss": "tree"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 1,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 3,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 6,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "pears",
+          "dependent": 8,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 10,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 12,
+          "dependentGloss": "pear"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 13,
+          "dependentGloss": "tree"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 1,
+          "dependentGloss": "Sara"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 3,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "pears",
+          "dependent": 6,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 6,
+          "dependentGloss": "Sally"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "pears",
+          "dependent": 8,
+          "dependentGloss": "11"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 10,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "tree",
+          "dependent": 12,
+          "dependentGloss": "pear"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 13,
+          "dependentGloss": "tree"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "picked",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Sara",
+          "originalText": "Sara",
+          "lemma": "Sara",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "45",
+          "originalText": "45",
+          "lemma": "45",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "pears",
+          "originalText": "pears",
+          "lemma": "pear",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 24,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Sally",
+          "originalText": "Sally",
+          "lemma": "Sally",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 30,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 37,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "11",
+          "originalText": "11",
+          "lemma": "11",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "11.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "pears",
+          "originalText": "pears",
+          "lemma": "pear",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "pear",
+          "originalText": "pear",
+          "lemma": "pear",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "tree",
+          "originalText": "tree",
+          "lemma": "tree",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS pears))\n    (SQ (VBD were)\n      (VP (VBN picked)\n        (PP (IN in)\n          (NP (NN total)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pears",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pears",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pears",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "pears"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 70,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 75,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pears",
+          "originalText": "pears",
+          "lemma": "pear",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 81,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 93,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 102,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 104,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Sara",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "45",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Sally",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "11",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "45 pears and Sally",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "45 pears",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "11 pears",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the pear tree",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1183 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (NNP Yardley)))\n    (NP (PRP it))\n    (VP (VBD snowed)\n      (NP\n        (NP (CD 0.125))\n        (PP (IN of)\n          (NP\n            (NP\n              (NP (DT an) (NN inch))\n              (PP (IN in)\n                (NP (DT the) (NN morning))))\n            (CC and)\n            (NP\n              (NP (CD 0.5))\n              (PP (IN of)\n                (NP (DT an) (NN inch)))))))\n      (PP (IN in)\n        (NP (DT the) (NN afternoon))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "snowed"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Yardley",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 2,
+          "dependentGloss": "Yardley"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 5,
+          "dependentGloss": "0.125"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "0.125",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 11,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 13,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 15,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 19,
+          "dependentGloss": "afternoon"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "snowed"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Yardley",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 2,
+          "dependentGloss": "Yardley"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 5,
+          "dependentGloss": "0.125"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.125",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 11,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 13,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 15,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 19,
+          "dependentGloss": "afternoon"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "snowed"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Yardley",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 2,
+          "dependentGloss": "Yardley"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 5,
+          "dependentGloss": "0.125"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.125",
+          "dependent": 8,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "morning",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 11,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "0.125",
+          "dependent": 13,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "inch",
+          "dependent": 13,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "inch",
+          "dependent": 15,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "0.5",
+          "dependent": 16,
+          "dependentGloss": "inch"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "afternoon",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 19,
+          "dependentGloss": "afternoon"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "snowed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Yardley",
+          "originalText": "Yardley",
+          "lemma": "Yardley",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "snowed",
+          "originalText": "snowed",
+          "lemma": "snow",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 20,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "0.125",
+          "originalText": "0.125",
+          "lemma": "0.125",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 26,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.125",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 32,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "inch",
+          "originalText": "inch",
+          "lemma": "inch",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 44,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "morning",
+          "originalText": "morning",
+          "lemma": "morning",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 52,
+          "pos": "NN",
+          "ner": "TIME",
+          "normalizedNER": "TMO",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "TIME",
+            "value": "TMO"
+          }
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 56,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "0.5",
+          "originalText": "0.5",
+          "lemma": "0.5",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 63,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "inch",
+          "originalText": "inch",
+          "lemma": "inch",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 74,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "afternoon",
+          "originalText": "afternoon",
+          "lemma": "afternoon",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 88,
+          "pos": "NN",
+          "ner": "TIME",
+          "normalizedNER": "TAF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "TIME",
+            "value": "TAF"
+          }
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 89,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBD was)\n      (NP\n        (NP (DT the) (JJ total) (NN amount))\n        (PP (IN of)\n          (NP (NN snowfall)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "snowfall",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 7,
+          "dependentGloss": "snowfall"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "snowfall",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 7,
+          "dependentGloss": "snowfall"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 5,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "snowfall",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "amount",
+          "dependent": 7,
+          "dependentGloss": "snowfall"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 98,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 102,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "amount",
+          "originalText": "amount",
+          "lemma": "amount",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 118,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "snowfall",
+          "originalText": "snowfall",
+          "lemma": "snowfall",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 127,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 128,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Yardley",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "0.125 of an inch in the morning and 0.5 of an inch",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an inch in the morning and 0.5 of an inch",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "an inch in the morning",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the morning",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "0.5 of an inch",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "an inch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the afternoon",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "the total amount of snowfall",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

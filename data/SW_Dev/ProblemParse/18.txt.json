@@ -1,0 +1,891 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Stanley))\n    (VP\n      (VP (VBD ran)\n        (NP\n          (NP (CD 0.4))\n          (PP (IN of)\n            (NP (DT a) (NN mile)))))\n      (CC and)\n      (VP (VBD walked)\n        (NP\n          (NP (CD 0.2))\n          (PP (IN of)\n            (NP (DT a) (NN mile))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "ran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 1,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 3,
+          "dependentGloss": "0.4"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "0.4",
+          "dependent": 6,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "0.2"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "0.2",
+          "dependent": 12,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "ran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 1,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 3,
+          "dependentGloss": "0.4"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.4",
+          "dependent": 6,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "0.2"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "0.2",
+          "dependent": 12,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "ran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 1,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 1,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 3,
+          "dependentGloss": "0.4"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "mile",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "0.4",
+          "dependent": 6,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 8,
+          "dependentGloss": "walked"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "walked",
+          "dependent": 9,
+          "dependentGloss": "0.2"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mile",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "0.2",
+          "dependent": 12,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "ran",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Stanley",
+          "originalText": "Stanley",
+          "lemma": "Stanley",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 7,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "ran",
+          "originalText": "ran",
+          "lemma": "run",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "0.4",
+          "originalText": "0.4",
+          "lemma": "0.4",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 15,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.4",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 20,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "walked",
+          "originalText": "walked",
+          "lemma": "walk",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 36,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "0.2",
+          "originalText": "0.2",
+          "lemma": "0.2",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.2",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 50,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 51,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WRB How) (JJ much))\n      (ADJP (RBR farther)))\n    (SQ (VBD did)\n      (NP (NNP Stanley))\n      (VP (VB run)\n        (PP (IN than)\n          (S\n            (VP (VB walk))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "farther"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 5,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "walk",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "farther"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 5,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "walk",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 3,
+          "dependentGloss": "farther"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 5,
+          "dependentGloss": "Stanley"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "walk",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "walk"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "run",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "farther",
+          "originalText": "farther",
+          "lemma": "farther",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 68,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Stanley",
+          "originalText": "Stanley",
+          "lemma": "Stanley",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 80,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "run",
+          "originalText": "run",
+          "lemma": "run",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "walk",
+          "originalText": "walk",
+          "lemma": "walk",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 95,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Stanley",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "Stanley",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "0.4 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "a mile",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "0.2 of a mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

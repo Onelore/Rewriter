@@ -1,0 +1,1137 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Ellen))\n    (VP (VBD went)\n      (PP (TO to)\n        (NP (DT a) (NN garage) (NN sale)))\n      (S\n        (VP (TO to)\n          (VP (VB buy)\n            (NP (NNS chairs))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 5,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 5,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sale",
+          "dependent": 5,
+          "dependentGloss": "garage"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "sale"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 8,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Ellen",
+          "originalText": "Ellen",
+          "lemma": "Ellen",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 15,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "garage",
+          "originalText": "garage",
+          "lemma": "garage",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "sale",
+          "originalText": "sale",
+          "lemma": "sale",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 30,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 34,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "chairs",
+          "originalText": "chairs",
+          "lemma": "chair",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 41,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT Each) (NN chair))\n    (VP (VBZ is)\n      (NP (CD 15) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chair",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "chair"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chair",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "chair"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chair",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "chair"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Each",
+          "originalText": "Each",
+          "lemma": "each",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "chair",
+          "originalText": "chair",
+          "lemma": "chair",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "15",
+          "originalText": "15",
+          "lemma": "15",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$15.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$15.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ (VBD did)\n      (NP (NNP Ellen))\n      (VP (VB spend)\n        (PP (IN for)\n          (NP\n            (NP (DT the) (CD 12) (NNS chairs))\n            (SBAR\n              (S\n                (NP (PRP she))\n                (VP (VBD bought))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "Ellen"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "chairs"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "bought",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "chairs",
+          "dependent": 11,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 77,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Ellen",
+          "originalText": "Ellen",
+          "lemma": "Ellen",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 87,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 101,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 104,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "chairs",
+          "originalText": "chairs",
+          "lemma": "chair",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 111,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 122,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 123,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Ellen",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "Ellen",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a garage sale",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "chairs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Each chair",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the 12 chairs she bought",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

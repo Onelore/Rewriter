@@ -1,0 +1,1524 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN While)\n      (FRAG\n        (PP (IN on)\n          (NP (NN vacation)))))\n    (, ,)\n    (NP (NNP Debby))\n    (VP (VBD took)\n      (NP (CD 24) (NNS pictures))\n      (PP (IN at)\n        (NP\n          (NP (DT the) (NN zoo))\n          (CC and)\n          (NP (CD 12))))\n      (PP (IN at)\n        (NP (DT the) (NN museum))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "While"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 5,
+          "dependentGloss": "Debby"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 11,
+          "dependentGloss": "zoo"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 16,
+          "dependentGloss": "museum"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "While"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "advcl:on",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 5,
+          "dependentGloss": "Debby"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 11,
+          "dependentGloss": "zoo"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 16,
+          "dependentGloss": "museum"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 1,
+          "dependentGloss": "While"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "vacation",
+          "dependent": 2,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "advcl:on",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 3,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 5,
+          "dependentGloss": "Debby"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 11,
+          "dependentGloss": "zoo"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "zoo",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "museum",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 16,
+          "dependentGloss": "museum"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "While",
+          "originalText": "While",
+          "lemma": "while",
+          "characterOffsetBegin": 1,
+          "characterOffsetEnd": 6,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 9,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "vacation",
+          "originalText": "vacation",
+          "lemma": "vacation",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 19,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Debby",
+          "originalText": "Debby",
+          "lemma": "Debby",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 25,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "took",
+          "originalText": "took",
+          "lemma": "take",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "24",
+          "originalText": "24",
+          "lemma": "24",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "24.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pictures",
+          "originalText": "pictures",
+          "lemma": "picture",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 42,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "zoo",
+          "originalText": "zoo",
+          "lemma": "zoo",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 60,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 63,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "museum",
+          "originalText": "museum",
+          "lemma": "museum",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP she))\n        (ADVP (RB later))\n        (VP (VBD deleted)\n          (NP\n            (NP (CD 14))\n            (PP (IN of)\n              (NP (DT the) (NNS pictures)))))))\n    (, ,)\n    (WHNP\n      (WHNP\n        (WHADJP (WRB how) (JJ many))\n        (NNS pictures))\n      (PP (IN from)\n        (NP (PRP$ her) (NN vacation))))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (ADVP (RB still))\n      (VP (VB have)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 5,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "14",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 14,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 15,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 5,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "14",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 14,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 15,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 19,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 2,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 3,
+          "dependentGloss": "later"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "deleted"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "deleted",
+          "dependent": 5,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "pictures",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "14",
+          "dependent": 8,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": "pictures"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 15,
+          "governorGloss": "vacation",
+          "dependent": 14,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 12,
+          "governorGloss": "pictures",
+          "dependent": 15,
+          "dependentGloss": "vacation"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "have",
+          "dependent": 20,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 78,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 82,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "later",
+          "originalText": "later",
+          "lemma": "later",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 88,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "deleted",
+          "originalText": "deleted",
+          "lemma": "delete",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 96,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "14",
+          "originalText": "14",
+          "lemma": "14",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 102,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pictures",
+          "originalText": "pictures",
+          "lemma": "picture",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 115,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 125,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "pictures",
+          "originalText": "pictures",
+          "lemma": "picture",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 134,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 139,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 143,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "vacation",
+          "originalText": "vacation",
+          "lemma": "vacation",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 152,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 156,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "still",
+          "originalText": "still",
+          "lemma": "still",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 166,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 171,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 172,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Debby",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "24",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "24 pictures",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "the pictures",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "the zoo and 12",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the zoo",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the museum",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "14 of the pictures",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "her vacation",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

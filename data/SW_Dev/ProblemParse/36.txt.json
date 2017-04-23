@@ -1,0 +1,1693 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Mike))\n    (VP (VBD had)\n      (NP\n        (NP (CD 34) (NNS peaches))\n        (SBAR\n          (S\n            (VP (VBD left)\n              (PP (IN at)\n                (NP (PRP$ his) (NN roadside) (NN fruit) (NN stand))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Mike"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 3,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 5,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 8,
+          "dependentGloss": "roadside"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "left",
+          "dependent": 10,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Mike"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 3,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 5,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 8,
+          "dependentGloss": "roadside"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "left",
+          "dependent": 10,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "Mike"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 3,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "peaches",
+          "dependent": 5,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 8,
+          "dependentGloss": "roadside"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": "fruit"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "left",
+          "dependent": 10,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Mike",
+          "originalText": "Mike",
+          "lemma": "Mike",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "34",
+          "originalText": "34",
+          "lemma": "34",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "34.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "peaches",
+          "originalText": "peaches",
+          "lemma": "peach",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 19,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "left",
+          "originalText": "left",
+          "lemma": "leave",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 24,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "his",
+          "originalText": "his",
+          "lemma": "he",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "roadside",
+          "originalText": "roadside",
+          "lemma": "roadside",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 40,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "fruit",
+          "originalText": "fruit",
+          "lemma": "fruit",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "stand",
+          "originalText": "stand",
+          "lemma": "stand",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 52,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 53,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP\n      (VP (VBD went)\n        (PP (TO to)\n          (NP (DT the) (NN orchard))))\n      (CC and)\n      (VP (VBD picked)\n        (NP (JJR more) (NNS peaches))\n        (S\n          (VP (TO to)\n            (VP (VB stock)\n              (PRT (RP up))\n              (NP (DT the) (NN stand)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "orchard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 11,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "stand",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "orchard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 11,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "stand",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "orchard",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 5,
+          "dependentGloss": "orchard"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 7,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 9,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "picked",
+          "dependent": 11,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "stand",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "went",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 61,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 64,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 68,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "orchard",
+          "originalText": "orchard",
+          "lemma": "orchard",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 76,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 87,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "peaches",
+          "originalText": "peaches",
+          "lemma": "peach",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 100,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 103,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 109,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 116,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "stand",
+          "originalText": "stand",
+          "lemma": "stand",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 122,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 123,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (ADVP (RB now))\n      (NP\n        (NP (CD 86) (NNS peaches))\n        (PP (IN at)\n          (NP\n            (NP (DT the) (NN stand))\n            (, ,)\n            (SBAR\n              (WHNP (WRB how) (JJ many))\n              (S\n                (VP (VBD did)\n                  (S\n                    (NP (PRP he))\n                    (VP (VB pick))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 4,
+          "dependentGloss": "86"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 12,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pick",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 14,
+          "dependentGloss": "pick"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 4,
+          "dependentGloss": "86"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 12,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pick",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 14,
+          "dependentGloss": "pick"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "now"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 4,
+          "dependentGloss": "86"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "peaches"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 6,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "peaches",
+          "dependent": 8,
+          "dependentGloss": "stand"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "many",
+          "dependent": 10,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 11,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "stand",
+          "dependent": 12,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pick",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "did",
+          "dependent": 14,
+          "dependentGloss": "pick"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 129,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "now",
+          "originalText": "now",
+          "lemma": "now",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 137,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 4,
+          "word": "86",
+          "originalText": "86",
+          "lemma": "86",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 140,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "86.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "peaches",
+          "originalText": "peaches",
+          "lemma": "peach",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 148,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 151,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 155,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "stand",
+          "originalText": "stand",
+          "lemma": "stand",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 161,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 162,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 171,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 178,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "pick",
+          "originalText": "pick",
+          "lemma": "pick",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 183,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 185,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Mike",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "his",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 6,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "34",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "34 peaches left at his roadside fruit stand",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "his roadside fruit stand",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the orchard",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "more peaches",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the stand",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "the stand, how many did he pick",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "the stand",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "86",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "86 peaches at the stand, how many did he pick",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}
