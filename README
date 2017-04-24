@@ -1,0 +1,34 @@
+To run, install python dependencies, download vectors and Ngrams model and place in /externalData 
+Optionally download prebuilt theme file (swFilm.txt) and place in /themeFiles
+run: python3 generator.py swConfig.txt
+
+To evaluate: 
+download Meteor evaluation metric ( http://www.cs.cmu.edu/~alavie/METEOR/ )
+run: java -Xmx2G -jar meteor-*.jar out/<outputfile> data/<dataset>/gold.txt -r 3
+
+
+
+
+
+### Python Dependencies:
+Numpy
+Scikit-learn
+Kenlm
+Nltk with Wordnet and wordnet_ic corpora 
+
+
+
+###Things you will need to download externally of this repository (available at http://lang.ee.washington.edu/rewriter/ ):
+
+Levy and Goldberg Vectors 
+Google English Fiction Syntactic N-gram language Model
+(optional) star wars "theme" file
+
+
+
+
+###To build other themes:
+
+For movie themes, Scriptbase ( contact Philip John Gorinski and see http://www.aclweb.org/anthology/N15-1113 )
+For Genre themes (like "Western"), download ebooks from ( https://www.gutenberg.org/ )
+For Adventure time scripts, use Scripbase + scripts from ( http://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=adventure-time )
